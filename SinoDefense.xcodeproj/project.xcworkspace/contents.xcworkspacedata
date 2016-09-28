@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+<<<<<<< HEAD
+      location = "self:/Users/span/Downloads/Udemy-ios/China Defense/SinoDefense.xcodeproj">
+=======
+      location = "self:SinoDefense.xcodeproj">
+>>>>>>> b7e5bd5583afefdec99b56ec91cc7dec9e1e4efd
+   </FileRef>
+</Workspace>

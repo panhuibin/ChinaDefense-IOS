@@ -1,0 +1,2060 @@
+Last login: Fri Jul  8 14:20:59 on ttys002
+LP-749:example span$ adb logcat
+--------- beginning of /dev/log/system
+D/Genymotion(   58): Received Ping
+D/Genymotion(   58): Received Ping
+D/Genymotion(   58): Received Ping
+D/Genymotion(   58): Received Ping
+D/Genymotion(   58): Received Ping
+D/Genymotion(   58): Received Ping
+D/Genymotion(   58): Received Ping
+D/Genymotion(   58): Received Ping
+--------- beginning of /dev/log/main
+I/AccountManagerService(  381): the accounts changed, sending broadcast of android.accounts.LOGIN_ACCOUNTS_CHANGED
+I/PicasaUploaderSyncManager( 1929): account change detect - update database
+D/PicasaUploaderSync( 1929): sync account database
+D/Library Sync( 1843): starting library sync
+I/ContactsProvider(  504): Accounts changed
+D/PicasaUploaderSync( 1929): accounts in DB=0
+D/SystemEventReceiver(  595): Received LOGIN_ACCOUNTS_CHANGED broadcast
+I/Email   ( 2078): System accounts updated.
+I/Email   ( 2078): ReconcilePopImapAccountsSync: start
+D/ExchangeService( 2096): Reconciling accounts...
+I/Email   ( 2078): ReconcilePopImapAccountsSync: done
+D/ExchangeService( 2096): !!! EAS ExchangeService, onCreate
+D/ExchangeService( 2096): !!! EAS ExchangeService, onStartCommand, startingUp = false, running = false
+D/CacheUpdateService(  595): [1]CacheUpdateService started
+D/CacheUpdateService(  595): trigger=2
+D/ExchangeService( 2096): !!! EAS ExchangeService, onStartCommand, startingUp = true, running = false
+D/CacheUpdater(  595): [1]CacheUpdater started
+D/Widget  ( 1843): no widgets so skipping update for type: CURRENTLY_READING_SMALL
+D/Volley  ( 1308): [107] DiskBasedCache.clear: Cache cleared.
+D/Volley  ( 1308): [111] DiskBasedCache.clear: Cache cleared.
+W/Finsky  ( 1308): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+D/Finsky  ( 1308): [1] UpdateWidgetsReceiver.onReceive: Updated 0 MarketWidgetProvider widgets (android.accounts.LOGIN_ACCOUNTS_CHANGED)
+D/Finsky  ( 1308): [1] UpdateWidgetsReceiver.onReceive: Updated 0 RecommendedWidgetProvider widgets (android.accounts.LOGIN_ACCOUNTS_CHANGED)
+D/Finsky  ( 1308): [1] UpdateWidgetsReceiver.onReceive: Updated 0 NowPlayingWidgetProvider widgets (android.accounts.LOGIN_ACCOUNTS_CHANGED)
+D/Finsky  ( 1308): [1] BaseWidgetProvider.onReceive: Received ACTION_APPWIDGET_UPDATE, updating 0 widgets.
+W/Finsky  ( 1308): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+W/Finsky  ( 1308): [1] FinskyApp.getDfeApi: No account configured on this device.
+D/Finsky  ( 1308): [1] BaseWidgetProvider.onReceive: Received ACTION_APPWIDGET_UPDATE, updating 0 widgets.
+W/Finsky  ( 1308): [1] FinskyApp.getCurrentAccount: No account configured on this device.
+W/Finsky  ( 1308): [1] FinskyApp.getDfeApi: No account configured on this device.
+D/Finsky  ( 1308): [1] BaseWidgetProvider.onReceive: Received ACTION_APPWIDGET_UPDATE, updating 0 widgets.
+E/UserProvider( 1843): Exception in onestore api initialization
+E/UserProvider( 1843): retrofit.RetrofitError: 401 Unauthorized
+E/UserProvider( 1843): 	at retrofit.RestAdapter$RestHandler.invokeRequest(RestAdapter.java:383)
+E/UserProvider( 1843): 	at retrofit.RestAdapter$RestHandler.invoke(RestAdapter.java:240)
+E/UserProvider( 1843): 	at com.kobobooks.android.providers.api.$Proxy2.getUserProfile(Native Method)
+E/UserProvider( 1843): 	at com.kobobooks.android.providers.api.OneStore.getUserProfile(OneStore.java:2217)
+E/UserProvider( 1843): 	at com.kobobooks.android.providers.UserProvider.loadUserProfileFromNetwork(UserProvider.java:339)
+E/UserProvider( 1843): 	at com.kobobooks.android.providers.UserProvider.access$000(UserProvider.java:33)
+E/UserProvider( 1843): 	at com.kobobooks.android.providers.UserProvider$2.doTask(UserProvider.java:321)
+E/UserProvider( 1843): 	at com.kobo.readerlibrary.tasks.StatelessAsyncTask.doInBackground(StatelessAsyncTask.java:14)
+E/UserProvider( 1843): 	at com.kobo.readerlibrary.tasks.StatelessAsyncTask.doInBackground(StatelessAsyncTask.java:5)
+E/UserProvider( 1843): 	at android.os.AsyncTask$2.call(AsyncTask.java:287)
+E/UserProvider( 1843): 	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+E/UserProvider( 1843): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+E/UserProvider( 1843): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+E/UserProvider( 1843): 	at java.lang.Thread.run(Thread.java:841)
+D/Widget  ( 1843): no widgets so skipping update for type: LIBRARY
+D/Widget  ( 1843): no widgets so skipping update for type: RECOMMENDATIONS
+I/PeopleDatabaseHelper(  595): cleanUpNonGplusAccounts done.
+D/Widget  ( 1843): no widgets so skipping update for type: STORE
+D/CacheUpdater(  595): [1]no app requested wallet prefetch
+D/PackageAddedReceiver(  595): setEnabled: true
+D/CacheUpdateService(  595): [1]finished
+I/GCoreUlr(  579): Ensuring that reporting is stopped because of reasons: (no Google accounts)
+D/CacheUpdateService(  595): stopping CacheUpdateService...
+D/GCoreFlp(  579): Unknown pending intent to remove.
+I/GCoreUlr(  579): Unbound from all location providers
+D/ExchangeService( 2096): Reconciling accounts...
+I/ContactsProvider(  504): Accounts changed
+W/GA-SERVICE(  595): Thread[Thread-143,5,main]:  Using destination https://ssl.google-analytics.com/collect
+D/dalvikvm(  504): GC_CONCURRENT freed 427K, 6% free 9283K/9800K, paused 5ms+0ms, total 11ms
+I/ContactDirectoryManager(  504): deleted 0 stale rows which don't have any relevant directory
+I/ContactDirectoryManager(  504): Discovered 0 contact directories in 62ms
+W/CursorWindow( 1843): Window is full: requested allocation 628 bytes, free space 125 bytes, window size 2097152 bytes
+D/SECURE URL( 1843): https://mobile.kobobooks.com/MobileRequest.ashx
+I/REQUEST ( 1843): HTTP POST
+I/REQUEST ( 1843): https://mobile.kobobooks.com/MobileRequest.ashx
+I/REQUEST ( 1843): Content-type = application/x-www-form-urlencoded
+I/REQUEST ( 1843): MobileAPIVersion = 4.0
+I/REQUEST ( 1843): MobileRequestType = TabRequest
+I/REQUEST ( 1843): <?xml version="1.0" encoding="UTF-8"?><TabRequest xmlns="http://kobobooks.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">	<RequestHeader> 		<UserID>b43d7e75-1061-4cf8-a5f9-42663655333f</UserID>	<UserKey>06f1a920-731e-4c94-8e18-7e67e90939a5</UserKey>	</RequestHeader>	<RequestBody>		<TabID>abcdefff-ffff-ffff-ffff-fffffffffffa</TabID>	<TabType>1</TabType>		<BrowseTabType>1</BrowseTabType>		<ItemsPerPage>15</ItemsPerPage>		<PageNumber>1</PageNumber>		<EPubPlatform>4</EPubPlatform>		<ContentCategory>1</ContentCategory>	<MonetizationState>3</MonetizationState>		<NeedDownloadURLs>true</NeedDownloadURLs>		<SortBy>2</SortBy>		<Locale>en-US</Locale> </RequestBody></TabRequest>
+D/REQUEST START( 1843): TabRequest
+D/REQUEST END( 1843): TabRequest 98
+D/END PARSE SAX( 1843): 332
+D/SECURE URL( 1843): https://mobile.kobobooks.com/MobileRequest.ashx
+I/REQUEST ( 1843): HTTP POST
+I/REQUEST ( 1843): https://mobile.kobobooks.com/MobileRequest.ashx
+I/REQUEST ( 1843): Content-type = application/x-www-form-urlencoded
+I/REQUEST ( 1843): MobileAPIVersion = 4.0
+I/REQUEST ( 1843): MobileRequestType = TabRequest
+I/REQUEST ( 1843): <?xml version="1.0" encoding="UTF-8"?><TabRequest xmlns="http://kobobooks.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">	<RequestHeader> 		<UserID>b43d7e75-1061-4cf8-a5f9-42663655333f</UserID>	<UserKey>06f1a920-731e-4c94-8e18-7e67e90939a5</UserKey>	</RequestHeader>	<RequestBody>		<TabID>abcdefff-ffff-ffff-ffff-ffffffffffff</TabID>	<TabType>1</TabType>		<BrowseTabType>1</BrowseTabType>		<ItemsPerPage>15</ItemsPerPage>		<PageNumber>1</PageNumber>		<EPubPlatform>4</EPubPlatform>		<ContentCategory>1</ContentCategory>	<MonetizationState>3</MonetizationState>		<NeedDownloadURLs>true</NeedDownloadURLs>		<SortBy>2</SortBy>		<Locale>en-US</Locale> </RequestBody></TabRequest>
+D/REQUEST START( 1843): TabRequest
+D/TaplyticsHelper( 1843): experimentVariation()
+D/TaplyticsHelper( 1843): 	didRequestFail : false
+W/GA-SERVICE(  595): Thread[Thread-143,5,main]:  Using destination https://ssl.google-analytics.com/collect
+I/CalendarProvider2( 1392): Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+W/ContentResolver( 1392): Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+D/REQUEST END( 1843): TabRequest 156
+D/dalvikvm(  381): GC_FOR_ALLOC freed 1086K, 33% free 13790K/20512K, paused 36ms, total 39ms
+D/AlertReceiver( 2146): onReceive: a=android.intent.action.PROVIDER_CHANGED Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar flg=0x10 cmp=com.android.calendar/.alerts.AlertReceiver }
+I/ActivityManager(  381): START u0 {flg=0x4000000 cmp=com.kobobooks.android/.screens.MainNavActivity (has extras)} from pid 1843
+D/AlertService( 2146): 0 Action = android.intent.action.PROVIDER_CHANGED
+D/dalvikvm(  381): GC_CONCURRENT freed 404K, 33% free 13785K/20512K, paused 2ms+8ms, total 58ms
+D/UserTracking( 1843): Tracking:Login
+D/dalvikvm( 1843): GC_CONCURRENT freed 11168K, 30% free 28566K/40672K, paused 18ms+4ms, total 95ms
+D/dalvikvm( 1843): WAIT_FOR_CONCURRENT_GC blocked 48ms
+D/dalvikvm( 1843): WAIT_FOR_CONCURRENT_GC blocked 44ms
+D/dalvikvm( 1843): WAIT_FOR_CONCURRENT_GC blocked 48ms
+D/dalvikvm( 1843): WAIT_FOR_CONCURRENT_GC blocked 40ms
+D/dalvikvm( 1843): WAIT_FOR_CONCURRENT_GC blocked 32ms
+W/GooglePlayServicesUtil( 1843): Google Play services out of date.  Requires 4323000 but found 3225136
+E/GooglePlayServicesUtil( 1843): GooglePlayServices not available due to error 2
+D/Library Sync( 1843): sync already in progress so just register for it
+D/MobileAppTracker( 1843): Sending event to server...
+D/Library Sync( 1843): sync already in progress so just register for it
+E/DictionaryHelper( 1843): checkDictionaryInAssetsDir failed: dictionary/en/dictionary.zip
+I/GoogleConversionReporter( 1843): Pinging: https://www.googleadservices.com/pagead/conversion/935976036/?bundleid=com.kobobooks.android&appversion=6.6.16008&osversion=4.3&sdkversion=ct-sdk-a-v2.2.4&gms=0&muid=Ii-v5cgJq1XmiQ1zubznwA&label=35WNCLu-xWEQ5LinvgM&value=0.00&timestamp=1468002574.060&usage_tracking_enabled=1
+W/GA-SERVICE(  595): Thread[Thread-143,5,main]:  Using destination https://ssl.google-analytics.com/collect
+W/EGL_genymotion( 1843): eglSurfaceAttrib not implemented
+I/ActivityManager(  381): START u0 {cmp=com.kobobooks.android/.screens.BlueFTEActivity (has extras)} from pid 1843
+I/qtaguid ( 1843): Failed write_ctrl(u 118) res=-1 errno=22
+I/qtaguid ( 1843): Untagging socket 118 failed errno=-22
+W/NetworkManagementSocketTagger( 1843): untagSocket(118) failed with errno -22
+D/dalvikvm( 1843): GC_CONCURRENT freed 6963K, 31% free 28146K/40672K, paused 4ms+8ms, total 74ms
+D/Genymotion(   58): Received Ping
+I/WindowManager(  381): Screenshot max retries 4 of Token{52bc7690 ActivityRecord{52ad44e8 u0 com.kobobooks.android/.screens.MainNavActivity}} appWin=Window{52b5da9c u0 com.kobobooks.android/com.kobobooks.android.screens.MainNavActivity} drawState=1
+W/WindowManager(  381): Screenshot failure taking screenshot for (768x1280) to layer 21030
+W/EGL_genymotion( 1843): eglSurfaceAttrib not implemented
+I/ActivityManager(  381): Displayed com.kobobooks.android/.screens.MainNavActivity: +1s27ms
+I/ActivityManager(  381): Displayed com.kobobooks.android/.screens.BlueFTEActivity: +222ms
+I/GoogleConversionReporter( 1843): Receive response code 200
+D/dalvikvm( 1843): GC_EXPLICIT freed 1601K, 30% free 28872K/40672K, paused 8ms+7ms, total 71ms
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 170K, 29% free 28901K/40672K, paused 44ms, total 44ms
+I/dalvikvm-heap( 1843): Grow heap (frag case) to 29.996MB for 1770192-byte allocation
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 12K, 28% free 30617K/42404K, paused 37ms, total 37ms
+D/dalvikvm(  469): GC_CONCURRENT freed 853K, 54% free 12021K/25972K, paused 0ms+5ms, total 22ms
+D/END PARSE SAX( 1843): 1619
+D/SECURE URL( 1843): https://mobile.kobobooks.com/MobileRequest.ashx
+I/REQUEST ( 1843): HTTP POST
+I/REQUEST ( 1843): https://mobile.kobobooks.com/MobileRequest.ashx
+I/REQUEST ( 1843): Content-type = application/x-www-form-urlencoded
+I/REQUEST ( 1843): MobileAPIVersion = 4.0
+I/REQUEST ( 1843): MobileRequestType = TabRequest
+I/REQUEST ( 1843): <?xml version="1.0" encoding="UTF-8"?><TabRequest xmlns="http://kobobooks.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">	<RequestHeader> 		<UserID>b43d7e75-1061-4cf8-a5f9-42663655333f</UserID>	<UserKey>06f1a920-731e-4c94-8e18-7e67e90939a5</UserKey>	</RequestHeader>	<RequestBody>		<TabID>abcdefff-ffff-ffff-ffff-fffffffffffa</TabID>	<TabType>1</TabType>		<BrowseTabType>1</BrowseTabType>		<ItemsPerPage>15</ItemsPerPage>		<PageNumber>1</PageNumber>		<EPubPlatform>4</EPubPlatform>		<ContentCategory>1</ContentCategory>	<MonetizationState>3</MonetizationState>		<NeedDownloadURLs>true</NeedDownloadURLs>		<SortBy>2</SortBy>		<Locale>en-US</Locale> </RequestBody></TabRequest>
+D/REQUEST START( 1843): TabRequest
+D/MobileAppTracker( 1843): Request completed with status 200
+D/MobileAppTracker( 1843): Server response: {"debugs":[],"get":{"mat_id":"94ec7613-819d-4f0c-999c-589376031e79","data":"5b2a0e87acc505e783e62b0207285d2f378be77772fcf071195372c5422abada778142f0f3489ba3463f7687c946fddeec1348bc093bb45439829b296a1d239040a2b076f94a8f2b3b20c8fede5cbc9091b8586bd69527e514e66e8e02d37aae60156376447dbb0fd003bb3bc607a3dcaac087c01e8f607543215a7d06e984adfd8384d82e9067aee69ba98935320cb414f053bb6de0f1385415f67d85cffda2e5ac91d3ea270fc05625da44c266acfce891a4d81a016228da557a41a440a8c3c5bf9354b5e509705c9cc756419ccf750ae87a3e04a038f76806402d43fcb7f6476e8b36261de563b48f362d42a7fedbc19aa5c95e0035aab342e1053c922412ff0a85a893b602149fb2fd3d19262e16df71f39d8507cd423281f9674d3ffcffb63b0d2a1a9cd69b7cd8b05203b91840c2f7a911a14700daec860e76b6316c396c7c83d840c80da8ea4ca02a4d0c0606b5616fedfdb01226d5fcbe48160dba38c2a2ff83a002e3116cc42b76e9fffa66f93d3a981c76a9894144ae498441b9f81eb386a99e1e80804abf4a5bbabeb9e9130ca0c27c336ab6fd439bfaafd4c1d37fdd6fd9c79755989f176c052c68542d037f40e2dca3609d0be91031d95a545c04fdfa596ab744da5acd0b5956c730fd317b0ec1ed95e21b5bbaaf56e6313c3e9c61d07bfa9addc31ac1dc0ef6cf747a42caa08cf1f3ba612d40eeefa5d9f93a8c15a2f3f510b66b2a054701c80c1d2ca229596b936202481900df756bb9989b98a2b8484aa1f8eab1de8f4f0eb0949d0649aebe9a67c79feb31eda641f2325f9823eed45d818f7b0589bf086ea1f19138f5ead7440b8e961890e6706578ef0251f340cb9ec95bf4612ac53ce48505dcd308c0c68d0fc60ba5303c073a620fbf2d54ff94d3be619a9e27e2be4d11ea5e1f845ca4cda48570222d73d27585cd13f004263c5e046fe5baa250be338405fa7a8392592963d5cc05fbc7d70b741e119e7f5eec6a1aebc73ce09d04f070df60814893c7f8d38fd2cb08d846d45165da4d66e45ea3957fda1b976996eccf65526168a1e7c222b7a5b64a9fa07438eb535fe4e9b0c1e2fbcdb7d96a7b8c6e1db107fa24005a2ca8bb1cae85f2e8ff7fa2c83c0227b65c1840f7779e94119fe12438359af195e913064a686e0dc7f9ba2824b9d3a05c8afe1ece40b85743d290fc","app_version":"16008","debug":"1","ver":"3.8","open_log_id":"e00fa025f134273ed8-20160708-4984","app_name":"Kobo eBooks","connection_type":"WIFI","mobile_network_code":"260","device_model":"Google Nexus 4 - 4.3 - API 18 - 768x1280","action":"conversion","user_id":"b43d7e75-1061-4cf8-a5f9-42663655333f","sdk":"android","currency_code":"USD","revenue":"0.0","site_event_name":"Login","conversion_user_agent":"Mozilla\/5.0 (Linux; U; Android 4.3; en-us; Google Nexus 4 - 4.3 - API 18 - 768x1280 Build\/JLS36G) AppleWebKit\/534.30 (KHTML, like Gecko) Version\/4.0 Mobile Safari\/534.30","package_name":"com.kobobooks.android","sdk_version":"3.8","advertiser_id":"4984","device_brand":"Genymotion","device_carrier":"Android","country_code":"us","transaction_id":"cf02dd68-604e-4b21-8fc8-04fa872d3487","os_version":"4.3","system_date":"1468002574","screen_layout_size":"768x1184","mobile_country_code":"310","last_open_log_id":"04558f7adfb1c54e63-20160708-4984","insdate":"1468001899","screen_density":"2.0","language":"English","device_cpu_type":"i686","app_version_name":"6.6.16008"},"success":false,"errors":["site event #168111624 is paused."]}
+D/MobileAppTracker( 1843): Event was rejected by server with error: site event #168111624 is paused.
+I/qtaguid ( 1843): Failed write_ctrl(u 105) res=-1 errno=22
+I/qtaguid ( 1843): Untagging socket 105 failed errno=-22
+W/NetworkManagementSocketTagger( 1843): untagSocket(105) failed with errno -22
+D/REQUEST END( 1843): TabRequest 431
+D/dalvikvm( 1843): GC_CONCURRENT freed 6557K, 22% free 31357K/39824K, paused 2ms+8ms, total 47ms
+D/dalvikvm( 1843): WAIT_FOR_CONCURRENT_GC blocked 18ms
+D/dalvikvm( 1843): WAIT_FOR_CONCURRENT_GC blocked 7ms
+D/dalvikvm( 1843): WAIT_FOR_CONCURRENT_GC blocked 10ms
+D/dalvikvm( 1843): WAIT_FOR_CONCURRENT_GC blocked 10ms
+D/webviewglue( 1843): nativeDestroy view: 0xb82ca2d0
+D/Genymotion(   58): Received Ping
+D/END PARSE SAX( 1843): 488
+D/SECURE URL( 1843): https://mobile.kobobooks.com/MobileRequest.ashx
+I/REQUEST ( 1843): HTTP POST
+I/REQUEST ( 1843): https://mobile.kobobooks.com/MobileRequest.ashx
+I/REQUEST ( 1843): Content-type = application/x-www-form-urlencoded
+I/REQUEST ( 1843): MobileAPIVersion = 4.0
+I/REQUEST ( 1843): MobileRequestType = TabRequest
+I/REQUEST ( 1843): <?xml version="1.0" encoding="UTF-8"?><TabRequest xmlns="http://kobobooks.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">	<RequestHeader> 		<UserID>b43d7e75-1061-4cf8-a5f9-42663655333f</UserID>	<UserKey>06f1a920-731e-4c94-8e18-7e67e90939a5</UserKey>	</RequestHeader>	<RequestBody>		<TabID>abcdefff-ffff-ffff-ffff-ffffffffffff</TabID>	<TabType>1</TabType>		<BrowseTabType>1</BrowseTabType>		<ItemsPerPage>15</ItemsPerPage>		<PageNumber>1</PageNumber>		<EPubPlatform>4</EPubPlatform>		<ContentCategory>1</ContentCategory>	<MonetizationState>3</MonetizationState>		<NeedDownloadURLs>true</NeedDownloadURLs>		<SortBy>2</SortBy>		<Locale>en-US</Locale> </RequestBody></TabRequest>
+D/REQUEST START( 1843): TabRequest
+D/dalvikvm( 1843): GC_CONCURRENT freed 9447K, 27% free 29376K/39824K, paused 3ms+4ms, total 32ms
+D/REQUEST END( 1843): TabRequest 219
+D/END PARSE SAX( 1843): 560
+D/CurrentReads( 1843): Possible current reads: 858, limit: 3, decayTime: 2016-05-27T18:29:34.157Z, first decay position: 856 (zero-based)
+V/CurrentReads( 1843): Date Last Read Times: {
+V/CurrentReads( 1843): [000]    2016-07-08T18:12:03.000Z
+V/CurrentReads( 1843): [001]    2016-07-08T14:48:25.000Z
+V/CurrentReads( 1843): [002]    2016-07-08T14:48:25.000Z
+V/CurrentReads( 1843): [003]    2016-07-08T14:48:25.000Z
+V/CurrentReads( 1843): [004]    2016-07-08T14:48:24.000Z
+V/CurrentReads( 1843): [005]    2016-07-08T14:48:24.000Z
+V/CurrentReads( 1843): [006]    2016-07-08T14:48:24.000Z
+V/CurrentReads( 1843): [007]    2016-07-08T14:48:24.000Z
+V/CurrentReads( 1843): [008]    2016-07-08T14:48:23.000Z
+V/CurrentReads( 1843): [009]    2016-07-08T14:48:23.000Z
+V/CurrentReads( 1843): [010]    2016-07-08T14:48:23.000Z
+V/CurrentReads( 1843): [011]    2016-07-08T14:48:23.000Z
+V/CurrentReads( 1843): [012]    2016-07-08T14:48:23.000Z
+V/CurrentReads( 1843): [013]    2016-07-08T14:48:23.000Z
+V/CurrentReads( 1843): [014]    2016-07-08T14:48:23.000Z
+V/CurrentReads( 1843): [015]    2016-07-08T14:48:23.000Z
+V/CurrentReads( 1843): [016]    2016-07-08T14:48:22.000Z
+V/CurrentReads( 1843): [017]    2016-07-08T14:48:22.000Z
+V/CurrentReads( 1843): [018]    2016-07-08T14:48:22.000Z
+V/CurrentReads( 1843): [019]    2016-07-08T14:48:22.000Z
+V/CurrentReads( 1843): [020]    2016-07-08T14:48:22.000Z
+V/CurrentReads( 1843): [021]    2016-07-08T14:48:21.000Z
+V/CurrentReads( 1843): [022]    2016-07-08T14:48:21.000Z
+V/CurrentReads( 1843): [023]    2016-07-08T14:48:21.000Z
+V/CurrentReads( 1843): [024]    2016-07-08T14:48:21.000Z
+V/CurrentReads( 1843): [025]    2016-07-08T14:48:20.000Z
+V/CurrentReads( 1843): [026]    2016-07-08T14:48:19.000Z
+V/CurrentReads( 1843): [027]    2016-07-08T14:48:19.000Z
+V/CurrentReads( 1843): [028]    2016-07-08T14:48:19.000Z
+V/CurrentReads( 1843): [029]    2016-07-08T14:48:18.000Z
+V/CurrentReads( 1843): [030]    2016-07-08T14:48:18.000Z
+V/CurrentReads( 1843): [031]    2016-07-08T14:48:18.000Z
+V/CurrentReads( 1843): [032]    2016-07-08T14:48:18.000Z
+V/CurrentReads( 1843): [033]    2016-07-08T14:48:18.000Z
+V/CurrentReads( 1843): [034]    2016-07-08T14:48:18.000Z
+V/CurrentReads( 1843): [035]    2016-07-08T14:48:18.000Z
+V/CurrentReads( 1843): [036]    2016-07-08T14:48:18.000Z
+V/CurrentReads( 1843): [037]    2016-07-08T14:48:17.000Z
+V/CurrentReads( 1843): [038]    2016-07-08T14:48:17.000Z
+V/CurrentReads( 1843): [039]    2016-07-08T14:48:17.000Z
+V/CurrentReads( 1843): [040]    2016-07-08T14:48:17.000Z
+V/CurrentReads( 1843): [041]    2016-07-08T14:48:16.000Z
+V/CurrentReads( 1843): [042]    2016-07-08T14:48:16.000Z
+V/CurrentReads( 1843): [043]    2016-07-08T14:48:16.000Z
+V/CurrentReads( 1843): [044]    2016-07-08T14:48:16.000Z
+V/CurrentReads( 1843): [045]    2016-07-08T14:48:16.000Z
+V/CurrentReads( 1843): [046]    2016-07-08T14:48:16.000Z
+V/CurrentReads( 1843): [047]    2016-07-08T14:48:16.000Z
+V/CurrentReads( 1843): [048]    2016-07-08T14:48:16.000Z
+V/CurrentReads( 1843): [049]    2016-07-08T14:48:15.000Z
+V/CurrentReads( 1843): [050]    2016-07-08T14:48:15.000Z
+V/CurrentReads( 1843): [051]    2016-07-08T14:48:15.000Z
+V/CurrentReads( 1843): [052]    2016-07-08T14:48:15.000Z
+V/CurrentReads( 1843): [053]    2016-07-08T14:48:15.000Z
+V/CurrentReads( 1843): [054]    2016-07-08T14:48:15.000Z
+V/CurrentReads( 1843): [055]    2016-07-08T14:48:15.000Z
+V/CurrentReads( 1843): [056]    2016-07-08T14:48:15.000Z
+V/CurrentReads( 1843): [057]    2016-07-08T14:48:14.000Z
+V/CurrentReads( 1843): [058]    2016-07-08T14:48:14.000Z
+V/CurrentReads( 1843): [059]    2016-07-08T14:48:14.000Z
+V/CurrentReads( 1843): [060]    2016-07-08T14:48:13.000Z
+V/CurrentReads( 1843): [061]    2016-07-08T14:48:13.000Z
+V/CurrentReads( 1843): [062]    2016-07-08T14:48:13.000Z
+V/CurrentReads( 1843): [063]    2016-07-08T14:48:13.000Z
+V/CurrentReads( 1843): [064]    2016-07-08T14:48:12.000Z
+V/CurrentReads( 1843): [065]    2016-07-08T14:48:12.000Z
+V/CurrentReads( 1843): [066]    2016-07-08T14:48:12.000Z
+V/CurrentReads( 1843): [067]    2016-07-08T14:48:12.000Z
+V/CurrentReads( 1843): [068]    2016-07-08T14:48:11.000Z
+V/CurrentReads( 1843): [069]    2016-07-08T14:48:11.000Z
+V/CurrentReads( 1843): [070]    2016-07-08T14:48:11.000Z
+V/CurrentReads( 1843): [071]    2016-07-08T14:48:11.000Z
+V/CurrentReads( 1843): [072]    2016-07-08T14:48:11.000Z
+V/CurrentReads( 1843): [073]    2016-07-08T14:48:11.000Z
+V/CurrentReads( 1843): [074]    2016-07-08T14:48:11.000Z
+V/CurrentReads( 1843): [075]    2016-07-08T14:48:10.000Z
+V/CurrentReads( 1843): [076]    2016-07-08T14:48:10.000Z
+V/CurrentReads( 1843): [077]    2016-07-08T14:48:10.000Z
+V/CurrentReads( 1843): [078]    2016-07-08T14:48:10.000Z
+V/CurrentReads( 1843): [079]    2016-07-08T14:48:10.000Z
+V/CurrentReads( 1843): [080]    2016-07-08T14:48:10.000Z
+V/CurrentReads( 1843): [081]    2016-07-08T14:48:10.000Z
+V/CurrentReads( 1843): [082]    2016-07-08T14:48:10.000Z
+V/CurrentReads( 1843): [083]    2016-07-08T14:48:10.000Z
+V/CurrentReads( 1843): [084]    2016-07-08T14:48:10.000Z
+V/CurrentReads( 1843): [085]    2016-07-08T14:48:09.000Z
+V/CurrentReads( 1843): [086]    2016-07-08T14:48:09.000Z
+V/CurrentReads( 1843): [087]    2016-07-08T14:48:09.000Z
+V/CurrentReads( 1843): [088]    2016-07-08T14:48:09.000Z
+V/CurrentReads( 1843): [089]    2016-07-08T14:48:09.000Z
+V/CurrentReads( 1843): [090]    2016-07-08T14:48:09.000Z
+V/CurrentReads( 1843): [091]    2016-07-08T14:48:08.000Z
+V/CurrentReads( 1843): [092]    2016-07-08T14:48:08.000Z
+V/CurrentReads( 1843): [093]    2016-07-08T14:48:08.000Z
+V/CurrentReads( 1843): [094]    2016-07-08T14:48:08.000Z
+V/CurrentReads( 1843): [095]    2016-07-08T14:48:08.000Z
+V/CurrentReads( 1843): [096]    2016-07-08T14:48:08.000Z
+V/CurrentReads( 1843): [097]    2016-07-08T14:48:08.000Z
+V/CurrentReads( 1843): [098]    2016-07-08T14:48:08.000Z
+V/CurrentReads( 1843): [099]    2016-07-08T14:48:07.000Z
+V/CurrentReads( 1843): [100]    2016-07-08T14:48:07.000Z
+V/CurrentReads( 1843): [101]    2016-07-08T14:48:07.000Z
+V/CurrentReads( 1843): [102]    2016-07-08T14:48:07.000Z
+V/CurrentReads( 1843): [103]    2016-07-08T14:48:07.000Z
+V/CurrentReads( 1843): [104]    2016-07-08T14:48:07.000Z
+V/CurrentReads( 1843): [105]    2016-07-08T14:48:07.000Z
+V/CurrentReads( 1843): [106]    2016-07-08T14:48:06.000Z
+V/CurrentReads( 1843): [107]    2016-07-08T14:48:06.000Z
+V/CurrentReads( 1843): [108]    2016-07-08T14:48:06.000Z
+V/CurrentReads( 1843): [109]    2016-07-08T14:48:06.000Z
+V/CurrentReads( 1843): [110]    2016-07-08T14:48:06.000Z
+V/CurrentReads( 1843): [111]    2016-07-08T14:48:06.000Z
+V/CurrentReads( 1843): [112]    2016-07-08T14:48:06.000Z
+V/CurrentReads( 1843): [113]    2016-07-08T14:48:06.000Z
+V/CurrentReads( 1843): [114]    2016-07-08T14:48:06.000Z
+V/CurrentReads( 1843): [115]    2016-07-08T14:48:05.000Z
+V/CurrentReads( 1843): [116]    2016-07-08T14:48:05.000Z
+V/CurrentReads( 1843): [117]    2016-07-08T14:48:05.000Z
+V/CurrentReads( 1843): [118]    2016-07-08T14:48:05.000Z
+V/CurrentReads( 1843): [119]    2016-07-08T14:48:05.000Z
+V/CurrentReads( 1843): [120]    2016-07-08T14:48:05.000Z
+V/CurrentReads( 1843): [121]    2016-07-08T14:48:05.000Z
+V/CurrentReads( 1843): [122]    2016-07-08T14:48:04.000Z
+V/CurrentReads( 1843): [123]    2016-07-08T14:48:04.000Z
+V/CurrentReads( 1843): [124]    2016-07-08T14:48:04.000Z
+V/CurrentReads( 1843): [125]    2016-07-08T14:48:04.000Z
+V/CurrentReads( 1843): [126]    2016-07-08T14:48:04.000Z
+V/CurrentReads( 1843): [127]    2016-07-08T14:48:03.000Z
+V/CurrentReads( 1843): [128]    2016-07-08T14:48:03.000Z
+V/CurrentReads( 1843): [129]    2016-07-08T14:48:03.000Z
+V/CurrentReads( 1843): [130]    2016-07-08T14:48:03.000Z
+V/CurrentReads( 1843): [131]    2016-07-08T14:48:03.000Z
+V/CurrentReads( 1843): [132]    2016-07-08T14:48:03.000Z
+V/CurrentReads( 1843): [133]    2016-07-08T14:48:03.000Z
+V/CurrentReads( 1843): [134]    2016-07-08T14:48:03.000Z
+V/CurrentReads( 1843): [135]    2016-07-08T14:48:03.000Z
+V/CurrentReads( 1843): [136]    2016-07-08T14:48:03.000Z
+V/CurrentReads( 1843): [137]    2016-07-08T14:48:02.000Z
+V/CurrentReads( 1843): [138]    2016-07-08T14:48:02.000Z
+V/CurrentReads( 1843): [139]    2016-07-08T14:48:02.000Z
+V/CurrentReads( 1843): [140]    2016-07-08T14:48:02.000Z
+V/CurrentReads( 1843): [141]    2016-07-08T14:48:02.000Z
+V/CurrentReads( 1843): [142]    2016-07-08T14:48:02.000Z
+V/CurrentReads( 1843): [143]    2016-07-08T14:48:01.000Z
+V/CurrentReads( 1843): [144]    2016-07-08T14:48:01.000Z
+V/CurrentReads( 1843): [145]    2016-07-08T14:48:01.000Z
+V/CurrentReads( 1843): [146]    2016-07-08T14:48:01.000Z
+V/CurrentReads( 1843): [147]    2016-07-08T14:48:01.000Z
+V/CurrentReads( 1843): [148]    2016-07-08T14:48:01.000Z
+V/CurrentReads( 1843): [149]    2016-07-08T14:48:01.000Z
+V/CurrentReads( 1843): [150]    2016-07-08T14:48:01.000Z
+V/CurrentReads( 1843): [151]    2016-07-08T14:48:00.000Z
+V/CurrentReads( 1843): [152]    2016-07-08T14:48:00.000Z
+V/CurrentReads( 1843): [153]    2016-07-08T14:48:00.000Z
+V/CurrentReads( 1843): [154]    2016-07-08T14:48:00.000Z
+V/CurrentReads( 1843): [155]    2016-07-08T14:48:00.000Z
+V/CurrentReads( 1843): [156]    2016-07-08T14:48:00.000Z
+V/CurrentReads( 1843): [157]    2016-07-08T14:48:00.000Z
+V/CurrentReads( 1843): [158]    2016-07-08T14:48:00.000Z
+V/CurrentReads( 1843): [159]    2016-07-08T14:48:00.000Z
+V/CurrentReads( 1843): [160]    2016-07-08T14:48:00.000Z
+V/CurrentReads( 1843): [161]    2016-07-08T14:47:59.000Z
+V/CurrentReads( 1843): [162]    2016-07-08T14:47:59.000Z
+V/CurrentReads( 1843): [163]    2016-07-08T14:47:59.000Z
+V/CurrentReads( 1843): [164]    2016-07-08T14:47:59.000Z
+V/CurrentReads( 1843): [165]    2016-07-08T14:47:59.000Z
+V/CurrentReads( 1843): [166]    2016-07-08T14:47:59.000Z
+V/CurrentReads( 1843): [167]    2016-07-08T14:47:59.000Z
+V/CurrentReads( 1843): [168]    2016-07-08T14:47:58.000Z
+V/CurrentReads( 1843): [169]    2016-07-08T14:47:58.000Z
+V/CurrentReads( 1843): [170]    2016-07-08T14:47:58.000Z
+V/CurrentReads( 1843): [171]    2016-07-08T14:47:58.000Z
+V/CurrentReads( 1843): [172]    2016-07-08T14:47:58.000Z
+V/CurrentReads( 1843): [173]    2016-07-08T14:47:58.000Z
+V/CurrentReads( 1843): [174]    2016-07-08T14:47:57.000Z
+V/CurrentReads( 1843): [175]    2016-07-08T14:47:56.000Z
+V/CurrentReads( 1843): [176]    2016-07-08T14:47:56.000Z
+V/CurrentReads( 1843): [177]    2016-07-08T14:47:56.000Z
+V/CurrentReads( 1843): [178]    2016-07-08T14:47:56.000Z
+V/CurrentReads( 1843): [179]    2016-07-08T14:47:56.000Z
+V/CurrentReads( 1843): [180]    2016-07-08T14:47:56.000Z
+V/CurrentReads( 1843): [181]    2016-07-08T14:47:55.000Z
+V/CurrentReads( 1843): [182]    2016-07-08T14:47:55.000Z
+V/CurrentReads( 1843): [183]    2016-07-08T14:47:55.000Z
+V/CurrentReads( 1843): [184]    2016-07-08T14:47:55.000Z
+V/CurrentReads( 1843): [185]    2016-07-08T14:47:54.000Z
+V/CurrentReads( 1843): [186]    2016-07-08T14:47:54.000Z
+V/CurrentReads( 1843): [187]    2016-07-08T14:47:54.000Z
+V/CurrentReads( 1843): [188]    2016-07-08T14:47:54.000Z
+V/CurrentReads( 1843): [189]    2016-07-08T14:47:53.000Z
+V/CurrentReads( 1843): [190]    2016-07-08T14:47:53.000Z
+V/CurrentReads( 1843): [191]    2016-07-08T14:47:53.000Z
+V/CurrentReads( 1843): [192]    2016-07-08T14:47:53.000Z
+V/CurrentReads( 1843): [193]    2016-07-08T14:47:53.000Z
+V/CurrentReads( 1843): [194]    2016-07-08T14:47:53.000Z
+V/CurrentReads( 1843): [195]    2016-07-08T14:47:53.000Z
+V/CurrentReads( 1843): [196]    2016-07-08T14:47:52.000Z
+V/CurrentReads( 1843): [197]    2016-07-08T14:47:52.000Z
+V/CurrentReads( 1843): [198]    2016-07-08T14:47:52.000Z
+V/CurrentReads( 1843): [199]    2016-07-08T14:47:52.000Z
+V/CurrentReads( 1843): [200]    2016-07-08T14:47:52.000Z
+V/CurrentReads( 1843): [201]    2016-07-08T14:47:52.000Z
+V/CurrentReads( 1843): [202]    2016-07-08T14:47:52.000Z
+V/CurrentReads( 1843): [203]    2016-07-08T14:47:51.000Z
+V/CurrentReads( 1843): [204]    2016-07-08T14:47:51.000Z
+V/CurrentReads( 1843): [205]    2016-07-08T14:47:51.000Z
+V/CurrentReads( 1843): [206]    2016-07-08T14:47:51.000Z
+V/CurrentReads( 1843): [207]    2016-07-08T14:47:51.000Z
+V/CurrentReads( 1843): [208]    2016-07-08T14:47:51.000Z
+V/CurrentReads( 1843): [209]    2016-07-08T14:47:51.000Z
+V/CurrentReads( 1843): [210]    2016-07-08T14:47:51.000Z
+V/CurrentReads( 1843): [211]    2016-07-08T14:47:50.000Z
+V/CurrentReads( 1843): [212]    2016-07-08T14:47:50.000Z
+V/CurrentReads( 1843): [213]    2016-07-08T14:47:50.000Z
+V/CurrentReads( 1843): [214]    2016-07-08T14:47:50.000Z
+V/CurrentReads( 1843): [215]    2016-07-08T14:47:50.000Z
+V/CurrentReads( 1843): [216]    2016-07-08T14:47:49.000Z
+V/CurrentReads( 1843): [217]    2016-07-08T14:47:49.000Z
+V/CurrentReads( 1843): [218]    2016-07-08T14:47:49.000Z
+V/CurrentReads( 1843): [219]    2016-07-08T14:47:49.000Z
+V/CurrentReads( 1843): [220]    2016-07-08T14:47:49.000Z
+V/CurrentReads( 1843): [221]    2016-07-08T14:47:49.000Z
+V/CurrentReads( 1843): [222]    2016-07-08T14:47:49.000Z
+V/CurrentReads( 1843): [223]    2016-07-08T14:47:49.000Z
+V/CurrentReads( 1843): [224]    2016-07-08T14:47:48.000Z
+V/CurrentReads( 1843): [225]    2016-07-08T14:47:48.000Z
+V/CurrentReads( 1843): [226]    2016-07-08T14:47:48.000Z
+V/CurrentReads( 1843): [227]    2016-07-08T14:47:48.000Z
+V/CurrentReads( 1843): [228]    2016-07-08T14:47:48.000Z
+V/CurrentReads( 1843): [229]    2016-07-08T14:47:48.000Z
+V/CurrentReads( 1843): [230]    2016-07-08T14:47:47.000Z
+V/CurrentReads( 1843): [231]    2016-07-08T14:47:47.000Z
+V/CurrentReads( 1843): [232]    2016-07-08T14:47:47.000Z
+V/CurrentReads( 1843): [233]    2016-07-08T14:47:46.000Z
+V/CurrentReads( 1843): [234]    2016-07-08T14:47:46.000Z
+V/CurrentReads( 1843): [235]    2016-07-08T14:47:46.000Z
+V/CurrentReads( 1843): [236]    2016-07-08T14:47:46.000Z
+V/CurrentReads( 1843): [237]    2016-07-08T14:47:46.000Z
+V/CurrentReads( 1843): [238]    2016-07-08T14:47:46.000Z
+V/CurrentReads( 1843): [239]    2016-07-08T14:47:46.000Z
+V/CurrentReads( 1843): [240]    2016-07-08T14:47:45.000Z
+V/CurrentReads( 1843): [241]    2016-07-08T14:47:45.000Z
+V/CurrentReads( 1843): [242]    2016-07-08T14:47:45.000Z
+V/CurrentReads( 1843): [243]    2016-07-08T14:47:45.000Z
+V/CurrentReads( 1843): [244]    2016-07-08T14:47:45.000Z
+V/CurrentReads( 1843): [245]    2016-07-08T14:47:45.000Z
+V/CurrentReads( 1843): [246]    2016-07-08T14:47:44.000Z
+V/CurrentReads( 1843): [247]    2016-07-08T14:47:44.000Z
+V/CurrentReads( 1843): [248]    2016-07-08T14:47:44.000Z
+V/CurrentReads( 1843): [249]    2016-07-08T14:47:44.000Z
+V/CurrentReads( 1843): [250]    2016-07-08T14:47:44.000Z
+V/CurrentReads( 1843): [251]    2016-07-08T14:47:44.000Z
+V/CurrentReads( 1843): [252]    2016-07-08T14:47:43.000Z
+V/CurrentReads( 1843): [253]    2016-07-08T14:47:43.000Z
+V/CurrentReads( 1843): [254]    2016-07-08T14:47:43.000Z
+V/CurrentReads( 1843): [255]    2016-07-08T14:47:43.000Z
+V/CurrentReads( 1843): [256]    2016-07-08T14:47:43.000Z
+V/CurrentReads( 1843): [257]    2016-07-08T14:47:42.000Z
+V/CurrentReads( 1843): [258]    2016-07-08T14:47:42.000Z
+V/CurrentReads( 1843): [259]    2016-07-08T14:47:41.000Z
+V/CurrentReads( 1843): [260]    2016-07-08T14:47:41.000Z
+V/CurrentReads( 1843): [261]    2016-07-08T14:47:41.000Z
+V/CurrentReads( 1843): [262]    2016-07-08T14:47:41.000Z
+V/CurrentReads( 1843): [263]    2016-07-08T14:47:41.000Z
+V/CurrentReads( 1843): [264]    2016-07-08T14:47:41.000Z
+V/CurrentReads( 1843): [265]    2016-07-08T14:47:41.000Z
+V/CurrentReads( 1843): [266]    2016-07-08T14:47:41.000Z
+V/CurrentReads( 1843): [267]    2016-07-08T14:47:41.000Z
+V/CurrentReads( 1843): [268]    2016-07-08T14:47:40.000Z
+V/CurrentReads( 1843): [269]    2016-07-08T14:47:40.000Z
+V/CurrentReads( 1843): [270]    2016-07-08T14:47:40.000Z
+V/CurrentReads( 1843): [271]    2016-07-08T14:47:40.000Z
+V/CurrentReads( 1843): [272]    2016-07-08T14:47:40.000Z
+V/CurrentReads( 1843): [273]    2016-07-08T14:47:40.000Z
+V/CurrentReads( 1843): [274]    2016-07-08T14:47:40.000Z
+V/CurrentReads( 1843): [275]    2016-07-08T14:47:40.000Z
+V/CurrentReads( 1843): [276]    2016-07-08T14:47:39.000Z
+V/CurrentReads( 1843): [277]    2016-07-08T14:47:39.000Z
+V/CurrentReads( 1843): [278]    2016-07-08T14:47:39.000Z
+V/CurrentReads( 1843): [279]    2016-07-08T14:47:39.000Z
+V/CurrentReads( 1843): [280]    2016-07-08T14:47:39.000Z
+V/CurrentReads( 1843): [281]    2016-07-08T14:47:39.000Z
+V/CurrentReads( 1843): [282]    2016-07-08T14:47:39.000Z
+V/CurrentReads( 1843): [283]    2016-07-08T14:47:39.000Z
+V/CurrentReads( 1843): [284]    2016-07-08T14:47:38.000Z
+V/CurrentReads( 1843): [285]    2016-07-08T14:47:38.000Z
+V/CurrentReads( 1843): [286]    2016-07-08T14:47:38.000Z
+V/CurrentReads( 1843): [287]    2016-07-08T14:47:38.000Z
+V/CurrentReads( 1843): [288]    2016-07-08T14:47:38.000Z
+V/CurrentReads( 1843): [289]    2016-07-08T14:47:38.000Z
+V/CurrentReads( 1843): [290]    2016-07-08T14:47:37.000Z
+V/CurrentReads( 1843): [291]    2016-07-08T14:47:37.000Z
+V/CurrentReads( 1843): [292]    2016-07-08T14:47:37.000Z
+V/CurrentReads( 1843): [293]    2016-07-08T14:47:37.000Z
+V/CurrentReads( 1843): [294]    2016-07-08T14:47:37.000Z
+V/CurrentReads( 1843): [295]    2016-07-08T14:47:37.000Z
+V/CurrentReads( 1843): [296]    2016-07-08T14:47:36.000Z
+V/CurrentReads( 1843): [297]    2016-07-08T14:47:36.000Z
+V/CurrentReads( 1843): [298]    2016-07-08T14:47:36.000Z
+V/CurrentReads( 1843): [299]    2016-07-08T14:47:36.000Z
+V/CurrentReads( 1843): [300]    2016-07-08T14:47:36.000Z
+V/CurrentReads( 1843): [301]    2016-07-08T14:47:36.000Z
+V/CurrentReads( 1843): [302]    2016-07-08T14:47:35.000Z
+V/CurrentReads( 1843): [303]    2016-07-08T14:47:35.000Z
+V/CurrentReads( 1843): [304]    2016-07-08T14:47:35.000Z
+V/CurrentReads( 1843): [305]    2016-07-08T14:47:34.000Z
+V/CurrentReads( 1843): [306]    2016-07-08T14:47:34.000Z
+V/CurrentReads( 1843): [307]    2016-07-08T14:47:34.000Z
+V/CurrentReads( 1843): [308]    2016-07-08T14:47:34.000Z
+V/CurrentReads( 1843): [309]    2016-07-08T14:47:34.000Z
+V/CurrentReads( 1843): [310]    2016-07-08T14:47:33.000Z
+V/CurrentReads( 1843): [311]    2016-07-08T14:47:33.000Z
+V/CurrentReads( 1843): [312]    2016-07-08T14:47:33.000Z
+V/CurrentReads( 1843): [313]    2016-07-08T14:47:33.000Z
+V/CurrentReads( 1843): [314]    2016-07-08T14:47:33.000Z
+V/CurrentReads( 1843): [315]    2016-07-08T14:47:32.000Z
+V/CurrentReads( 1843): [316]    2016-07-08T14:47:32.000Z
+V/CurrentReads( 1843): [317]    2016-07-08T14:47:32.000Z
+V/CurrentReads( 1843): [318]    2016-07-08T14:47:32.000Z
+V/CurrentReads( 1843): [319]    2016-07-08T14:47:32.000Z
+V/CurrentReads( 1843): [320]    2016-07-08T14:47:32.000Z
+V/CurrentReads( 1843): [321]    2016-07-08T14:47:31.000Z
+V/CurrentReads( 1843): [322]    2016-07-08T14:47:31.000Z
+V/CurrentReads( 1843): [323]    2016-07-08T14:47:31.000Z
+V/CurrentReads( 1843): [324]    2016-07-08T14:47:30.000Z
+V/CurrentReads( 1843): [325]    2016-07-08T14:47:30.000Z
+V/CurrentReads( 1843): [326]    2016-07-08T14:47:30.000Z
+V/CurrentReads( 1843): [327]    2016-07-08T14:47:30.000Z
+V/CurrentReads( 1843): [328]    2016-07-08T14:47:30.000Z
+V/CurrentReads( 1843): [329]    2016-07-08T14:47:29.000Z
+V/CurrentReads( 1843): [330]    2016-07-08T14:47:29.000Z
+V/CurrentReads( 1843): [331]    2016-07-08T14:47:29.000Z
+V/CurrentReads( 1843): [332]    2016-07-08T14:47:29.000Z
+V/CurrentReads( 1843): [333]    2016-07-08T14:47:28.000Z
+V/CurrentReads( 1843): [334]    2016-07-08T14:47:27.000Z
+V/CurrentReads( 1843): [335]    2016-07-08T14:47:27.000Z
+V/CurrentReads( 1843): [336]    2016-07-08T14:47:27.000Z
+V/CurrentReads( 1843): [337]    2016-07-08T14:47:26.000Z
+V/CurrentReads( 1843): [338]    2016-07-08T14:47:26.000Z
+V/CurrentReads( 1843): [339]    2016-07-08T14:47:26.000Z
+V/CurrentReads( 1843): [340]    2016-07-08T14:47:26.000Z
+V/CurrentReads( 1843): [341]    2016-07-08T14:47:26.000Z
+V/CurrentReads( 1843): [342]    2016-07-08T14:47:26.000Z
+V/CurrentReads( 1843): [343]    2016-07-08T14:47:25.000Z
+V/CurrentReads( 1843): [344]    2016-07-08T14:47:25.000Z
+V/CurrentReads( 1843): [345]    2016-07-08T14:47:25.000Z
+V/CurrentReads( 1843): [346]    2016-07-08T14:47:24.000Z
+V/CurrentReads( 1843): [347]    2016-07-08T14:47:24.000Z
+V/CurrentReads( 1843): [348]    2016-07-08T14:47:24.000Z
+V/CurrentReads( 1843): [349]    2016-07-08T14:47:24.000Z
+V/CurrentReads( 1843): [350]    2016-07-08T14:47:24.000Z
+V/CurrentReads( 1843): [351]    2016-07-08T14:47:24.000Z
+V/CurrentReads( 1843): [352]    2016-07-08T14:47:23.000Z
+V/CurrentReads( 1843): [353]    2016-07-08T14:47:23.000Z
+V/CurrentReads( 1843): [354]    2016-07-08T14:47:23.000Z
+V/CurrentReads( 1843): [355]    2016-07-08T14:47:23.000Z
+V/CurrentReads( 1843): [356]    2016-07-08T14:47:23.000Z
+V/CurrentReads( 1843): [357]    2016-07-08T14:47:22.000Z
+V/CurrentReads( 1843): [358]    2016-07-08T14:47:22.000Z
+V/CurrentReads( 1843): [359]    2016-07-08T14:47:22.000Z
+V/CurrentReads( 1843): [360]    2016-07-08T14:47:22.000Z
+V/CurrentReads( 1843): [361]    2016-07-08T14:47:22.000Z
+V/CurrentReads( 1843): [362]    2016-07-08T14:47:22.000Z
+V/CurrentReads( 1843): [363]    2016-07-08T14:47:22.000Z
+V/CurrentReads( 1843): [364]    2016-07-08T14:47:21.000Z
+V/CurrentReads( 1843): [365]    2016-07-08T14:47:21.000Z
+V/CurrentReads( 1843): [366]    2016-07-08T14:47:20.000Z
+V/CurrentReads( 1843): [367]    2016-07-08T14:47:20.000Z
+V/CurrentReads( 1843): [368]    2016-07-08T14:47:20.000Z
+V/CurrentReads( 1843): [369]    2016-07-08T14:47:20.000Z
+V/CurrentReads( 1843): [370]    2016-07-08T14:47:20.000Z
+V/CurrentReads( 1843): [371]    2016-07-08T14:47:20.000Z
+V/CurrentReads( 1843): [372]    2016-07-08T14:47:19.000Z
+V/CurrentReads( 1843): [373]    2016-06-27T21:46:53.000Z
+V/CurrentReads( 1843): [374]    2016-06-17T16:05:31.000Z
+V/CurrentReads( 1843): [375]    2016-06-17T16:05:06.000Z
+V/CurrentReads( 1843): [376]    2016-06-15T15:40:15.000Z
+V/CurrentReads( 1843): [377]    2016-06-14T21:44:05.000Z
+V/CurrentReads( 1843): [378]    2016-06-14T20:55:54.000Z
+V/CurrentReads( 1843): [379]    2016-06-14T19:45:52.000Z
+V/CurrentReads( 1843): [380]    2016-06-14T19:19:49.000Z
+V/CurrentReads( 1843): [381]    2016-06-14T15:50:56.000Z
+V/CurrentReads( 1843): [382]    2016-06-10T20:12:19.000Z
+V/CurrentReads( 1843): [383]    2016-06-10T17:31:58.000Z
+V/CurrentReads( 1843): [384]    2016-06-10T17:31:02.000Z
+V/CurrentReads( 1843): [385]    2016-06-08T22:00:10.000Z
+V/CurrentReads( 1843): [386]    2016-06-08T19:53:58.000Z
+V/CurrentReads( 1843): [387]    2016-06-08T18:24:33.000Z
+V/CurrentReads( 1843): [388]    2016-06-08T17:53:40.000Z
+V/CurrentReads( 1843): [389]    2016-06-03T16:50:57.000Z
+V/CurrentReads( 1843): [390]    2016-06-03T16:50:11.000Z
+V/CurrentReads( 1843): [391]    2016-06-03T15:26:35.000Z
+V/CurrentReads( 1843): [392]    2016-06-02T18:33:25.000Z
+V/CurrentReads( 1843): [393]    2016-06-02T18:27:07.000Z
+V/CurrentReads( 1843): [394]    2016-06-02T18:25:24.000Z
+V/CurrentReads( 1843): [395]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [396]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [397]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [398]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [399]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [400]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [401]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [402]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [403]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [404]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [405]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [406]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [407]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [408]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [409]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [410]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [411]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [412]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [413]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [414]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [415]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [416]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [417]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [418]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [419]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [420]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [421]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [422]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [423]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [424]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [425]    2016-06-01T01:29:22.000Z
+V/CurrentReads( 1843): [426]    2016-06-01T01:29:22.000Z
+V/CurrentReads( 1843): [427]    2016-06-01T01:29:22.000Z
+V/CurrentReads( 1843): [428]    2016-06-01T01:29:22.000Z
+V/CurrentReads( 1843): [429]    2016-06-01T01:29:22.000Z
+V/CurrentReads( 1843): [430]    2016-06-01T01:29:22.000Z
+V/CurrentReads( 1843): [431]    2016-06-01T01:29:22.000Z
+V/CurrentReads( 1843): [432]    2016-06-01T01:29:22.000Z
+V/CurrentReads( 1843): [433]    2016-06-01T01:29:22.000Z
+V/CurrentReads( 1843): [434]    2016-06-01T01:29:22.000Z
+V/CurrentReads( 1843): [435]    2016-06-01T01:29:18.000Z
+V/CurrentReads( 1843): [436]    2016-06-01T01:29:18.000Z
+V/CurrentReads( 1843): [437]    2016-06-01T01:29:18.000Z
+V/CurrentReads( 1843): [438]    2016-06-01T01:29:18.000Z
+V/CurrentReads( 1843): [439]    2016-06-01T01:29:18.000Z
+V/CurrentReads( 1843): [440]    2016-06-01T01:29:17.000Z
+V/CurrentReads( 1843): [441]    2016-06-01T01:29:17.000Z
+V/CurrentReads( 1843): [442]    2016-06-01T01:29:17.000Z
+V/CurrentReads( 1843): [443]    2016-06-01T01:29:16.000Z
+V/CurrentReads( 1843): [444]    2016-06-01T01:29:16.000Z
+V/CurrentReads( 1843): [445]    2016-06-01T01:29:16.000Z
+V/CurrentReads( 1843): [446]    2016-06-01T01:29:16.000Z
+V/CurrentReads( 1843): [447]    2016-06-01T01:29:16.000Z
+V/CurrentReads( 1843): [448]    2016-06-01T01:29:16.000Z
+V/CurrentReads( 1843): [449]    2016-06-01T01:29:16.000Z
+V/CurrentReads( 1843): [450]    2016-06-01T01:29:16.000Z
+V/CurrentReads( 1843): [451]    2016-06-01T01:29:16.000Z
+V/CurrentReads( 1843): [452]    2016-06-01T01:29:16.000Z
+V/CurrentReads( 1843): [453]    2016-06-01T01:29:15.000Z
+V/CurrentReads( 1843): [454]    2016-06-01T01:29:15.000Z
+V/CurrentReads( 1843): [455]    2016-06-01T01:29:15.000Z
+V/CurrentReads( 1843): [456]    2016-06-01T01:29:15.000Z
+V/CurrentReads( 1843): [457]    2016-06-01T01:29:15.000Z
+V/CurrentReads( 1843): [458]    2016-06-01T01:29:14.000Z
+V/CurrentReads( 1843): [459]    2016-06-01T01:29:14.000Z
+V/CurrentReads( 1843): [460]    2016-06-01T01:29:14.000Z
+V/CurrentReads( 1843): [461]    2016-06-01T01:29:14.000Z
+V/CurrentReads( 1843): [462]    2016-06-01T01:29:14.000Z
+V/CurrentReads( 1843): [463]    2016-06-01T01:29:14.000Z
+V/CurrentReads( 1843): [464]    2016-06-01T01:29:14.000Z
+V/CurrentReads( 1843): [465]    2016-06-01T01:29:14.000Z
+V/CurrentReads( 1843): [466]    2016-06-01T01:29:14.000Z
+V/CurrentReads( 1843): [467]    2016-06-01T01:29:13.000Z
+V/CurrentReads( 1843): [468]    2016-06-01T01:29:13.000Z
+V/CurrentReads( 1843): [469]    2016-06-01T01:29:13.000Z
+V/CurrentReads( 1843): [470]    2016-06-01T01:29:13.000Z
+V/CurrentReads( 1843): [471]    2016-06-01T01:29:13.000Z
+V/CurrentReads( 1843): [472]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [473]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [474]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [475]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [476]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [477]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [478]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [479]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [480]    2016-06-01T01:29:12.000Z
+D/dalvikvm( 1843): GC_CONCURRENT freed 4834K, 22% free 31425K/39824K, paused 6ms+5ms, total 105ms
+V/CurrentReads( 1843): [481]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [482]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [483]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [484]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [485]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [486]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [487]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [488]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [489]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [490]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [491]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [492]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [493]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [494]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [495]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [496]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [497]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [498]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [499]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [500]    2016-06-01T01:29:10.000Z
+V/CurrentReads( 1843): [501]    2016-06-01T01:29:10.000Z
+V/CurrentReads( 1843): [502]    2016-06-01T01:29:10.000Z
+V/CurrentReads( 1843): [503]    2016-06-01T01:29:10.000Z
+V/CurrentReads( 1843): [504]    2016-06-01T01:29:10.000Z
+V/CurrentReads( 1843): [505]    2016-06-01T01:29:10.000Z
+V/CurrentReads( 1843): [506]    2016-06-01T01:29:10.000Z
+V/CurrentReads( 1843): [507]    2016-06-01T01:29:10.000Z
+V/CurrentReads( 1843): [508]    2016-06-01T01:29:10.000Z
+V/CurrentReads( 1843): [509]    2016-06-01T01:29:09.000Z
+V/CurrentReads( 1843): [510]    2016-06-01T01:29:09.000Z
+V/CurrentReads( 1843): [511]    2016-06-01T01:29:09.000Z
+V/CurrentReads( 1843): [512]    2016-06-01T01:29:07.000Z
+V/CurrentReads( 1843): [513]    2016-06-01T01:29:07.000Z
+V/CurrentReads( 1843): [514]    2016-06-01T01:29:07.000Z
+V/CurrentReads( 1843): [515]    2016-06-01T01:29:07.000Z
+V/CurrentReads( 1843): [516]    2016-06-01T01:29:07.000Z
+V/CurrentReads( 1843): [517]    2016-06-01T01:29:07.000Z
+V/CurrentReads( 1843): [518]    2016-06-01T01:29:07.000Z
+V/CurrentReads( 1843): [519]    2016-06-01T01:29:07.000Z
+D/SECURE URL( 1843): https://mobile.kobobooks.com/MobileRequest.ashx
+V/CurrentReads( 1843): [520]    2016-06-01T01:29:07.000Z
+V/CurrentReads( 1843): [521]    2016-06-01T01:29:07.000Z
+V/CurrentReads( 1843): [522]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [523]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [524]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [525]    2016-06-01T01:29:05.000Z
+I/REQUEST ( 1843): HTTP POST
+I/REQUEST ( 1843): https://mobile.kobobooks.com/MobileRequest.ashx
+I/REQUEST ( 1843): Content-type = application/x-www-form-urlencoded
+I/REQUEST ( 1843): MobileAPIVersion = 4.0
+I/REQUEST ( 1843): MobileRequestType = TabRequest
+I/REQUEST ( 1843): <?xml version="1.0" encoding="UTF-8"?><TabRequest xmlns="http://kobobooks.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">	<RequestHeader> 		<UserID>b43d7e75-1061-4cf8-a5f9-42663655333f</UserID>	<UserKey>06f1a920-731e-4c94-8e18-7e67e90939a5</UserKey>	</RequestHeader>	<RequestBody>		<TabID>abcdefff-ffff-ffff-ffff-fffffffffffd</TabID>	<TabType>1</TabType>		<BrowseTabType>1</BrowseTabType>		<ItemsPerPage>300</ItemsPerPage>		<PageNumber>1</PageNumber>		<EPubPlatform>4</EPubPlatform>		<ContentCategory>1</ContentCategory>	<MonetizationState>3</MonetizationState>		<NeedDownloadURLs>true</NeedDownloadURLs>		<SortBy>2</SortBy>		<Locale>en-US</Locale> </RequestBody></TabRequest>
+D/REQUEST START( 1843): TabRequest
+V/CurrentReads( 1843): [526]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [527]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [528]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [529]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [530]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [531]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [532]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [533]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [534]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [535]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [536]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [537]    2016-06-01T01:29:03.000Z
+V/CurrentReads( 1843): [538]    2016-06-01T01:29:03.000Z
+V/CurrentReads( 1843): [539]    2016-06-01T01:29:03.000Z
+V/CurrentReads( 1843): [540]    2016-06-01T01:29:03.000Z
+V/CurrentReads( 1843): [541]    2016-06-01T01:29:03.000Z
+V/CurrentReads( 1843): [542]    2016-06-01T01:29:03.000Z
+V/CurrentReads( 1843): [543]    2016-06-01T01:29:03.000Z
+V/CurrentReads( 1843): [544]    2016-06-01T01:29:03.000Z
+V/CurrentReads( 1843): [545]    2016-06-01T01:29:03.000Z
+V/CurrentReads( 1843): [546]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [547]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [548]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [549]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [550]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [551]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [552]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [553]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [554]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [555]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [556]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [557]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [558]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [559]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [560]    2016-06-01T01:29:00.000Z
+V/CurrentReads( 1843): [561]    2016-06-01T01:29:00.000Z
+V/CurrentReads( 1843): [562]    2016-06-01T01:29:00.000Z
+V/CurrentReads( 1843): [563]    2016-06-01T01:29:00.000Z
+V/CurrentReads( 1843): [564]    2016-06-01T01:29:00.000Z
+V/CurrentReads( 1843): [565]    2016-06-01T01:28:59.000Z
+V/CurrentReads( 1843): [566]    2016-06-01T01:28:59.000Z
+V/CurrentReads( 1843): [567]    2016-06-01T01:28:59.000Z
+V/CurrentReads( 1843): [568]    2016-06-01T01:28:59.000Z
+V/CurrentReads( 1843): [569]    2016-06-01T01:28:59.000Z
+V/CurrentReads( 1843): [570]    2016-06-01T01:28:59.000Z
+V/CurrentReads( 1843): [571]    2016-06-01T01:28:59.000Z
+V/CurrentReads( 1843): [572]    2016-06-01T01:28:59.000Z
+V/CurrentReads( 1843): [573]    2016-06-01T01:28:59.000Z
+V/CurrentReads( 1843): [574]    2016-06-01T01:28:59.000Z
+V/CurrentReads( 1843): [575]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [576]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [577]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [578]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [579]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [580]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [581]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [582]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [583]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [584]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [585]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [586]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [587]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [588]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [589]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [590]    2016-06-01T01:28:57.000Z
+V/CurrentReads( 1843): [591]    2016-06-01T01:28:57.000Z
+V/CurrentReads( 1843): [592]    2016-06-01T01:28:57.000Z
+V/CurrentReads( 1843): [593]    2016-06-01T01:28:57.000Z
+V/CurrentReads( 1843): [594]    2016-06-01T01:28:57.000Z
+V/CurrentReads( 1843): [595]    2016-06-01T01:28:57.000Z
+V/CurrentReads( 1843): [596]    2016-06-01T01:28:57.000Z
+V/CurrentReads( 1843): [597]    2016-06-01T01:28:57.000Z
+V/CurrentReads( 1843): [598]    2016-06-01T01:28:57.000Z
+V/CurrentReads( 1843): [599]    2016-06-01T01:28:57.000Z
+V/CurrentReads( 1843): [600]    2016-06-01T01:28:55.000Z
+V/CurrentReads( 1843): [601]    2016-06-01T01:28:55.000Z
+V/CurrentReads( 1843): [602]    2016-06-01T01:28:55.000Z
+V/CurrentReads( 1843): [603]    2016-06-01T01:28:55.000Z
+V/CurrentReads( 1843): [604]    2016-06-01T01:28:55.000Z
+V/CurrentReads( 1843): [605]    2016-06-01T01:28:55.000Z
+V/CurrentReads( 1843): [606]    2016-06-01T01:28:55.000Z
+V/CurrentReads( 1843): [607]    2016-06-01T01:28:55.000Z
+V/CurrentReads( 1843): [608]    2016-06-01T01:28:55.000Z
+V/CurrentReads( 1843): [609]    2016-06-01T01:28:55.000Z
+V/CurrentReads( 1843): [610]    2016-06-01T01:28:55.000Z
+V/CurrentReads( 1843): [611]    2016-06-01T01:28:55.000Z
+V/CurrentReads( 1843): [612]    2016-06-01T01:28:54.000Z
+V/CurrentReads( 1843): [613]    2016-06-01T01:28:54.000Z
+V/CurrentReads( 1843): [614]    2016-06-01T01:28:54.000Z
+V/CurrentReads( 1843): [615]    2016-06-01T01:28:54.000Z
+V/CurrentReads( 1843): [616]    2016-06-01T01:28:54.000Z
+V/CurrentReads( 1843): [617]    2016-06-01T01:28:54.000Z
+V/CurrentReads( 1843): [618]    2016-06-01T01:28:54.000Z
+V/CurrentReads( 1843): [619]    2016-06-01T01:28:54.000Z
+V/CurrentReads( 1843): [620]    2016-06-01T01:28:54.000Z
+V/CurrentReads( 1843): [621]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [622]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [623]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [624]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [625]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [626]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [627]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [628]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [629]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [630]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [631]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [632]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [633]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [634]    2016-06-01T01:28:52.000Z
+V/CurrentReads( 1843): [635]    2016-06-01T01:28:52.000Z
+V/CurrentReads( 1843): [636]    2016-06-01T01:28:52.000Z
+V/CurrentReads( 1843): [637]    2016-06-01T01:28:52.000Z
+V/CurrentReads( 1843): [638]    2016-06-01T01:28:52.000Z
+V/CurrentReads( 1843): [639]    2016-06-01T01:28:52.000Z
+V/CurrentReads( 1843): [640]    2016-06-01T01:28:52.000Z
+V/CurrentReads( 1843): [641]    2016-06-01T01:28:52.000Z
+V/CurrentReads( 1843): [642]    2016-06-01T01:28:52.000Z
+V/CurrentReads( 1843): [643]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [644]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [645]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [646]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [647]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [648]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [649]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [650]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [651]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [652]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [653]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [654]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [655]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [656]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [657]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [658]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [659]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [660]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [661]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [662]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [663]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [664]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [665]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [666]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [667]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [668]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [669]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [670]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [671]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [672]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [673]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [674]    2016-06-01T01:28:49.000Z
+V/CurrentReads( 1843): [675]    2016-06-01T01:28:49.000Z
+V/CurrentReads( 1843): [676]    2016-06-01T01:28:49.000Z
+V/CurrentReads( 1843): [677]    2016-06-01T01:28:49.000Z
+V/CurrentReads( 1843): [678]    2016-06-01T01:28:49.000Z
+V/CurrentReads( 1843): [679]    2016-06-01T01:28:48.000Z
+V/CurrentReads( 1843): [680]    2016-06-01T01:28:48.000Z
+V/CurrentReads( 1843): [681]    2016-06-01T01:28:48.000Z
+V/CurrentReads( 1843): [682]    2016-06-01T01:28:48.000Z
+V/CurrentReads( 1843): [683]    2016-06-01T01:28:48.000Z
+V/CurrentReads( 1843): [684]    2016-06-01T01:28:47.000Z
+V/CurrentReads( 1843): [685]    2016-06-01T01:28:47.000Z
+V/CurrentReads( 1843): [686]    2016-06-01T01:28:47.000Z
+V/CurrentReads( 1843): [687]    2016-06-01T01:28:47.000Z
+V/CurrentReads( 1843): [688]    2016-06-01T01:28:47.000Z
+V/CurrentReads( 1843): [689]    2016-06-01T01:28:47.000Z
+V/CurrentReads( 1843): [690]    2016-06-01T01:28:47.000Z
+V/CurrentReads( 1843): [691]    2016-06-01T01:28:47.000Z
+V/CurrentReads( 1843): [692]    2016-06-01T01:28:47.000Z
+V/CurrentReads( 1843): [693]    2016-06-01T01:28:47.000Z
+V/CurrentReads( 1843): [694]    2016-06-01T01:28:46.000Z
+V/CurrentReads( 1843): [695]    2016-06-01T01:28:46.000Z
+V/CurrentReads( 1843): [696]    2016-06-01T01:28:46.000Z
+V/CurrentReads( 1843): [697]    2016-06-01T01:28:46.000Z
+V/CurrentReads( 1843): [698]    2016-05-30T19:09:36.000Z
+V/CurrentReads( 1843): [699]    2016-05-30T19:09:36.000Z
+V/CurrentReads( 1843): [700]    2016-05-30T19:09:36.000Z
+V/CurrentReads( 1843): [701]    2016-05-30T19:09:29.000Z
+V/CurrentReads( 1843): [702]    2016-05-30T19:09:28.000Z
+V/CurrentReads( 1843): [703]    2016-05-30T19:09:28.000Z
+V/CurrentReads( 1843): [704]    2016-05-30T19:09:28.000Z
+V/CurrentReads( 1843): [705]    2016-05-30T19:09:28.000Z
+V/CurrentReads( 1843): [706]    2016-05-30T19:09:28.000Z
+V/CurrentReads( 1843): [707]    2016-05-30T19:09:27.000Z
+V/CurrentReads( 1843): [708]    2016-05-30T19:09:27.000Z
+V/CurrentReads( 1843): [709]    2016-05-30T19:09:27.000Z
+V/CurrentReads( 1843): [710]    2016-05-30T19:09:24.000Z
+V/CurrentReads( 1843): [711]    2016-05-30T19:09:24.000Z
+V/CurrentReads( 1843): [712]    2016-05-30T19:09:24.000Z
+V/CurrentReads( 1843): [713]    2016-05-30T19:09:24.000Z
+V/CurrentReads( 1843): [714]    2016-05-30T19:09:24.000Z
+V/CurrentReads( 1843): [715]    2016-05-30T19:09:24.000Z
+V/CurrentReads( 1843): [716]    2016-05-30T19:09:24.000Z
+V/CurrentReads( 1843): [717]    2016-05-30T19:09:24.000Z
+V/CurrentReads( 1843): [718]    2016-05-30T19:09:24.000Z
+V/CurrentReads( 1843): [719]    2016-05-30T19:09:24.000Z
+V/CurrentReads( 1843): [720]    2016-05-30T19:09:23.000Z
+V/CurrentReads( 1843): [721]    2016-05-30T19:09:23.000Z
+V/CurrentReads( 1843): [722]    2016-05-30T19:09:23.000Z
+V/CurrentReads( 1843): [723]    2016-05-30T19:09:22.000Z
+V/CurrentReads( 1843): [724]    2016-05-30T19:09:22.000Z
+V/CurrentReads( 1843): [725]    2016-05-30T19:09:21.000Z
+V/CurrentReads( 1843): [726]    2016-05-30T19:09:21.000Z
+V/CurrentReads( 1843): [727]    2016-05-30T19:09:21.000Z
+V/CurrentReads( 1843): [728]    2016-05-30T19:09:20.000Z
+V/CurrentReads( 1843): [729]    2016-05-30T19:09:19.000Z
+V/CurrentReads( 1843): [730]    2016-05-30T19:09:19.000Z
+V/CurrentReads( 1843): [731]    2016-05-30T19:09:19.000Z
+V/CurrentReads( 1843): [732]    2016-05-30T19:09:17.000Z
+V/CurrentReads( 1843): [733]    2016-05-30T19:09:17.000Z
+V/CurrentReads( 1843): [734]    2016-05-30T19:09:15.000Z
+V/CurrentReads( 1843): [735]    2016-05-30T19:09:15.000Z
+V/CurrentReads( 1843): [736]    2016-05-30T19:09:15.000Z
+V/CurrentReads( 1843): [737]    2016-05-30T19:09:15.000Z
+V/CurrentReads( 1843): [738]    2016-05-30T19:09:15.000Z
+V/CurrentReads( 1843): [739]    2016-05-30T19:09:15.000Z
+V/CurrentReads( 1843): [740]    2016-05-30T19:09:14.000Z
+V/CurrentReads( 1843): [741]    2016-05-30T19:09:14.000Z
+V/CurrentReads( 1843): [742]    2016-05-30T19:09:13.000Z
+V/CurrentReads( 1843): [743]    2016-05-30T19:09:13.000Z
+V/CurrentReads( 1843): [744]    2016-05-30T19:09:13.000Z
+V/CurrentReads( 1843): [745]    2016-05-30T19:09:13.000Z
+V/CurrentReads( 1843): [746]    2016-05-30T19:09:13.000Z
+V/CurrentReads( 1843): [747]    2016-05-30T19:09:13.000Z
+V/CurrentReads( 1843): [748]    2016-05-30T19:09:13.000Z
+V/CurrentReads( 1843): [749]    2016-05-30T19:09:13.000Z
+V/CurrentReads( 1843): [750]    2016-05-30T19:09:12.000Z
+V/CurrentReads( 1843): [751]    2016-05-30T19:09:12.000Z
+V/CurrentReads( 1843): [752]    2016-05-30T19:09:11.000Z
+V/CurrentReads( 1843): [753]    2016-05-30T19:09:11.000Z
+V/CurrentReads( 1843): [754]    2016-05-30T19:09:11.000Z
+V/CurrentReads( 1843): [755]    2016-05-30T19:09:11.000Z
+V/CurrentReads( 1843): [756]    2016-05-30T19:09:10.000Z
+V/CurrentReads( 1843): [757]    2016-05-30T19:09:09.000Z
+V/CurrentReads( 1843): [758]    2016-05-30T19:09:09.000Z
+V/CurrentReads( 1843): [759]    2016-05-30T19:09:09.000Z
+V/CurrentReads( 1843): [760]    2016-05-30T19:09:08.000Z
+V/CurrentReads( 1843): [761]    2016-05-30T19:09:08.000Z
+W/genymotion_audio(  128): out_write() limiting sleep time 58049 to 23219
+V/CurrentReads( 1843): [762]    2016-05-30T19:09:08.000Z
+V/CurrentReads( 1843): [763]    2016-05-30T19:09:08.000Z
+V/CurrentReads( 1843): [764]    2016-05-30T19:09:08.000Z
+V/CurrentReads( 1843): [765]    2016-05-30T19:09:08.000Z
+V/CurrentReads( 1843): [766]    2016-05-30T19:09:07.000Z
+V/CurrentReads( 1843): [767]    2016-05-30T19:09:07.000Z
+V/CurrentReads( 1843): [768]    2016-05-30T19:09:07.000Z
+V/CurrentReads( 1843): [769]    2016-05-30T19:09:06.000Z
+V/CurrentReads( 1843): [770]    2016-05-30T19:09:06.000Z
+V/CurrentReads( 1843): [771]    2016-05-30T19:09:06.000Z
+V/CurrentReads( 1843): [772]    2016-05-30T19:09:06.000Z
+V/CurrentReads( 1843): [773]    2016-05-30T19:09:04.000Z
+V/CurrentReads( 1843): [774]    2016-05-30T19:09:03.000Z
+V/CurrentReads( 1843): [775]    2016-05-30T19:09:03.000Z
+V/CurrentReads( 1843): [776]    2016-05-30T19:09:03.000Z
+V/CurrentReads( 1843): [777]    2016-05-30T19:09:01.000Z
+V/CurrentReads( 1843): [778]    2016-05-30T19:09:01.000Z
+V/CurrentReads( 1843): [779]    2016-05-30T19:09:01.000Z
+V/CurrentReads( 1843): [780]    2016-05-30T19:09:01.000Z
+V/CurrentReads( 1843): [781]    2016-05-30T19:09:00.000Z
+V/CurrentReads( 1843): [782]    2016-05-30T19:09:00.000Z
+V/CurrentReads( 1843): [783]    2016-05-30T19:08:59.000Z
+V/CurrentReads( 1843): [784]    2016-05-30T19:08:59.000Z
+V/CurrentReads( 1843): [785]    2016-05-30T19:08:58.000Z
+V/CurrentReads( 1843): [786]    2016-05-30T19:08:58.000Z
+V/CurrentReads( 1843): [787]    2016-05-30T19:08:58.000Z
+V/CurrentReads( 1843): [788]    2016-05-30T19:08:57.000Z
+V/CurrentReads( 1843): [789]    2016-05-30T19:08:57.000Z
+V/CurrentReads( 1843): [790]    2016-05-30T19:08:57.000Z
+V/CurrentReads( 1843): [791]    2016-05-30T19:08:57.000Z
+V/CurrentReads( 1843): [792]    2016-05-30T19:08:55.000Z
+V/CurrentReads( 1843): [793]    2016-05-30T19:08:55.000Z
+V/CurrentReads( 1843): [794]    2016-05-30T19:08:55.000Z
+V/CurrentReads( 1843): [795]    2016-05-30T19:08:54.000Z
+V/CurrentReads( 1843): [796]    2016-05-30T19:08:54.000Z
+V/CurrentReads( 1843): [797]    2016-05-30T19:08:54.000Z
+V/CurrentReads( 1843): [798]    2016-05-30T19:08:52.000Z
+V/CurrentReads( 1843): [799]    2016-05-30T19:08:52.000Z
+V/CurrentReads( 1843): [800]    2016-05-30T19:08:52.000Z
+V/CurrentReads( 1843): [801]    2016-05-30T19:08:52.000Z
+V/CurrentReads( 1843): [802]    2016-05-30T19:08:52.000Z
+V/CurrentReads( 1843): [803]    2016-05-30T19:08:52.000Z
+V/CurrentReads( 1843): [804]    2016-05-30T19:08:52.000Z
+V/CurrentReads( 1843): [805]    2016-05-30T19:08:51.000Z
+V/CurrentReads( 1843): [806]    2016-05-30T19:08:50.000Z
+V/CurrentReads( 1843): [807]    2016-05-30T19:08:50.000Z
+V/CurrentReads( 1843): [808]    2016-05-30T19:08:50.000Z
+V/CurrentReads( 1843): [809]    2016-05-30T19:08:50.000Z
+V/CurrentReads( 1843): [810]    2016-05-30T19:08:49.000Z
+V/CurrentReads( 1843): [811]    2016-05-30T19:08:49.000Z
+V/CurrentReads( 1843): [812]    2016-05-30T19:08:49.000Z
+V/CurrentReads( 1843): [813]    2016-05-30T19:08:48.000Z
+V/CurrentReads( 1843): [814]    2016-05-30T19:08:48.000Z
+V/CurrentReads( 1843): [815]    2016-05-30T19:08:47.000Z
+V/CurrentReads( 1843): [816]    2016-05-30T19:08:47.000Z
+V/CurrentReads( 1843): [817]    2016-05-30T19:08:45.000Z
+V/CurrentReads( 1843): [818]    2016-05-30T19:08:45.000Z
+V/CurrentReads( 1843): [819]    2016-05-30T19:08:45.000Z
+V/CurrentReads( 1843): [820]    2016-05-30T19:08:45.000Z
+V/CurrentReads( 1843): [821]    2016-05-30T19:08:43.000Z
+V/CurrentReads( 1843): [822]    2016-05-30T19:08:43.000Z
+V/CurrentReads( 1843): [823]    2016-05-30T19:08:43.000Z
+V/CurrentReads( 1843): [824]    2016-05-30T19:08:40.000Z
+V/CurrentReads( 1843): [825]    2016-05-30T19:08:39.000Z
+V/CurrentReads( 1843): [826]    2016-05-30T19:08:39.000Z
+V/CurrentReads( 1843): [827]    2016-05-30T19:08:39.000Z
+V/CurrentReads( 1843): [828]    2016-05-30T19:08:37.000Z
+V/CurrentReads( 1843): [829]    2016-05-30T19:08:37.000Z
+V/CurrentReads( 1843): [830]    2016-05-30T19:08:37.000Z
+V/CurrentReads( 1843): [831]    2016-05-30T19:08:37.000Z
+V/CurrentReads( 1843): [832]    2016-05-30T19:08:34.000Z
+V/CurrentReads( 1843): [833]    2016-05-30T19:08:34.000Z
+V/CurrentReads( 1843): [834]    2016-05-30T19:08:33.000Z
+V/CurrentReads( 1843): [835]    2016-05-30T19:08:33.000Z
+V/CurrentReads( 1843): [836]    2016-05-30T19:08:32.000Z
+V/CurrentReads( 1843): [837]    2016-05-30T19:08:32.000Z
+V/CurrentReads( 1843): [838]    2016-05-30T19:08:29.000Z
+V/CurrentReads( 1843): [839]    2016-05-30T19:08:29.000Z
+V/CurrentReads( 1843): [840]    2016-05-30T19:08:29.000Z
+V/CurrentReads( 1843): [841]    2016-05-30T19:08:26.000Z
+V/CurrentReads( 1843): [842]    2016-05-30T19:08:26.000Z
+V/CurrentReads( 1843): [843]    2016-05-30T19:08:24.000Z
+V/CurrentReads( 1843): [844]    2016-05-30T19:08:24.000Z
+V/CurrentReads( 1843): [845]    2016-05-30T19:08:24.000Z
+V/CurrentReads( 1843): [846]    2016-05-30T19:08:24.000Z
+V/CurrentReads( 1843): [847]    2016-05-30T19:08:20.000Z
+V/CurrentReads( 1843): [848]    2016-05-30T19:08:20.000Z
+V/CurrentReads( 1843): [849]    2016-05-30T19:08:20.000Z
+V/CurrentReads( 1843): [850]    2016-05-30T19:08:14.000Z
+V/CurrentReads( 1843): [851]    2016-05-30T19:08:14.000Z
+V/CurrentReads( 1843): [852]    2016-05-30T19:08:14.000Z
+D/Genymotion(   58): Received Ping
+V/CurrentReads( 1843): [853]    2016-05-30T19:08:11.000Z
+D/dalvikvm(  381): GC_FOR_ALLOC freed 1087K, 33% free 13813K/20512K, paused 69ms, total 79ms
+V/CurrentReads( 1843): [854]    2016-05-30T19:08:11.000Z
+V/CurrentReads( 1843): [855]    2016-05-30T19:08:11.000Z
+V/CurrentReads( 1843): [---]
+V/CurrentReads( 1843): [856]    2016-05-25T17:55:01.000Z
+V/CurrentReads( 1843): [857]    2015-12-04T20:59:02.000Z
+V/CurrentReads( 1843): } // End Date Last Read Times
+D/CurrentReads( 1843): Active  current reads: 856
+E/DictionaryHelper( 1843): checkDictionaryInAssetsDir failed: dictionary/en/dictionary.zip
+D/dalvikvm( 1843): GC_EXPLICIT freed 1150K, 22% free 31446K/39824K, paused 3ms+9ms, total 62ms
+D/CurrentReads( 1843): New cut-off time: 2016-07-08T14:48:25.000Z
+D/CurrentReads( 1843): -----------------------
+D/AlertService( 2146): Beginning updateAlertNotification
+D/AlertService( 2146): No fired or scheduled alerts
+D/AlertService( 2146): Scheduling next alarm with AlarmScheduler. sEventReminderReceived: null
+D/AlarmScheduler( 2146): No events found starting within 1 week.
+E/pix     ( 1843): 40 19 760
+D/REQUEST END( 1843): TabRequest 1094
+D/END PARSE SAX( 1843): 68
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 6078K, 27% free 29336K/39824K, paused 37ms, total 38ms
+E/pix     ( 1843): 55 27 1485
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 2050K, 23% free 30995K/39824K, paused 35ms, total 35ms
+D/Genymotion(   58): Received Ping
+I/Library Sync( 1843): total time: 8017, books processed: 2, magazines processed: 1, library size: 3
+D/dalvikvm( 1843): GC_CONCURRENT freed 5144K, 17% free 33273K/39824K, paused 10ms+2ms, total 79ms
+D/dalvikvm( 1843): WAIT_FOR_CONCURRENT_GC blocked 24ms
+D/dalvikvm( 1843): WAIT_FOR_CONCURRENT_GC blocked 33ms
+D/dalvikvm( 1843): WAIT_FOR_CONCURRENT_GC blocked 33ms
+D/dalvikvm( 1843): WAIT_FOR_CONCURRENT_GC blocked 26ms
+D/dalvikvm( 1843): WAIT_FOR_CONCURRENT_GC blocked 26ms
+D/dalvikvm( 1843): WAIT_FOR_CONCURRENT_GC blocked 26ms
+D/Library Sync( 1843): Syncing User Profile post library sync - forced: true
+I/ActivityManager(  381): START u0 {cmp=com.kobobooks.android/.screens.BlueFTEActivity (has extras)} from pid 1843
+D/dalvikvm(  381): GC_FOR_ALLOC freed 757K, 30% free 14173K/20140K, paused 27ms, total 29ms
+D/dalvikvm(  381): GC_FOR_ALLOC freed 762K, 32% free 13782K/20140K, paused 23ms, total 24ms
+W/EGL_genymotion( 1843): eglSurfaceAttrib not implemented
+I/ActivityManager(  381): Displayed com.kobobooks.android/.screens.BlueFTEActivity: +118ms
+D/CurrentReads( 1843): Possible current reads: 858, limit: 3, decayTime: 2016-05-27T18:29:39.051Z, first decay position: 856 (zero-based)
+V/CurrentReads( 1843): Date Last Read Times: {
+V/CurrentReads( 1843): [000]    2016-07-08T18:12:03.000Z
+W/GA-SERVICE(  595): Thread[Thread-143,5,main]:  Using destination https://ssl.google-analytics.com/collect
+V/CurrentReads( 1843): [001]    2016-07-08T14:48:25.000Z
+V/CurrentReads( 1843): [002]    2016-07-08T14:48:25.000Z
+V/CurrentReads( 1843): [003]    2016-07-08T14:48:25.000Z
+V/CurrentReads( 1843): [004]    2016-07-08T14:48:24.000Z
+V/CurrentReads( 1843): [005]    2016-07-08T14:48:24.000Z
+V/CurrentReads( 1843): [006]    2016-07-08T14:48:24.000Z
+V/CurrentReads( 1843): [007]    2016-07-08T14:48:24.000Z
+V/CurrentReads( 1843): [008]    2016-07-08T14:48:23.000Z
+V/CurrentReads( 1843): [009]    2016-07-08T14:48:23.000Z
+V/CurrentReads( 1843): [010]    2016-07-08T14:48:23.000Z
+I/qtaguid ( 1843): Failed write_ctrl(u 51) res=-1 errno=22
+I/qtaguid ( 1843): Untagging socket 51 failed errno=-22
+W/NetworkManagementSocketTagger( 1843): untagSocket(51) failed with errno -22
+V/CurrentReads( 1843): [011]    2016-07-08T14:48:23.000Z
+V/CurrentReads( 1843): [012]    2016-07-08T14:48:23.000Z
+V/CurrentReads( 1843): [013]    2016-07-08T14:48:23.000Z
+V/CurrentReads( 1843): [014]    2016-07-08T14:48:23.000Z
+V/CurrentReads( 1843): [015]    2016-07-08T14:48:23.000Z
+V/CurrentReads( 1843): [016]    2016-07-08T14:48:22.000Z
+V/CurrentReads( 1843): [017]    2016-07-08T14:48:22.000Z
+V/CurrentReads( 1843): [018]    2016-07-08T14:48:22.000Z
+V/CurrentReads( 1843): [019]    2016-07-08T14:48:22.000Z
+V/CurrentReads( 1843): [020]    2016-07-08T14:48:22.000Z
+V/CurrentReads( 1843): [021]    2016-07-08T14:48:21.000Z
+V/CurrentReads( 1843): [022]    2016-07-08T14:48:21.000Z
+V/CurrentReads( 1843): [023]    2016-07-08T14:48:21.000Z
+V/CurrentReads( 1843): [024]    2016-07-08T14:48:21.000Z
+V/CurrentReads( 1843): [025]    2016-07-08T14:48:20.000Z
+V/CurrentReads( 1843): [026]    2016-07-08T14:48:19.000Z
+V/CurrentReads( 1843): [027]    2016-07-08T14:48:19.000Z
+V/CurrentReads( 1843): [028]    2016-07-08T14:48:19.000Z
+V/CurrentReads( 1843): [029]    2016-07-08T14:48:18.000Z
+V/CurrentReads( 1843): [030]    2016-07-08T14:48:18.000Z
+V/CurrentReads( 1843): [031]    2016-07-08T14:48:18.000Z
+V/CurrentReads( 1843): [032]    2016-07-08T14:48:18.000Z
+V/CurrentReads( 1843): [033]    2016-07-08T14:48:18.000Z
+V/CurrentReads( 1843): [034]    2016-07-08T14:48:18.000Z
+V/CurrentReads( 1843): [035]    2016-07-08T14:48:18.000Z
+V/CurrentReads( 1843): [036]    2016-07-08T14:48:18.000Z
+V/CurrentReads( 1843): [037]    2016-07-08T14:48:17.000Z
+V/CurrentReads( 1843): [038]    2016-07-08T14:48:17.000Z
+V/CurrentReads( 1843): [039]    2016-07-08T14:48:17.000Z
+V/CurrentReads( 1843): [040]    2016-07-08T14:48:17.000Z
+V/CurrentReads( 1843): [041]    2016-07-08T14:48:16.000Z
+V/CurrentReads( 1843): [042]    2016-07-08T14:48:16.000Z
+V/CurrentReads( 1843): [043]    2016-07-08T14:48:16.000Z
+V/CurrentReads( 1843): [044]    2016-07-08T14:48:16.000Z
+V/CurrentReads( 1843): [045]    2016-07-08T14:48:16.000Z
+V/CurrentReads( 1843): [046]    2016-07-08T14:48:16.000Z
+V/CurrentReads( 1843): [047]    2016-07-08T14:48:16.000Z
+V/CurrentReads( 1843): [048]    2016-07-08T14:48:16.000Z
+V/CurrentReads( 1843): [049]    2016-07-08T14:48:15.000Z
+V/CurrentReads( 1843): [050]    2016-07-08T14:48:15.000Z
+V/CurrentReads( 1843): [051]    2016-07-08T14:48:15.000Z
+V/CurrentReads( 1843): [052]    2016-07-08T14:48:15.000Z
+V/CurrentReads( 1843): [053]    2016-07-08T14:48:15.000Z
+V/CurrentReads( 1843): [054]    2016-07-08T14:48:15.000Z
+V/CurrentReads( 1843): [055]    2016-07-08T14:48:15.000Z
+V/CurrentReads( 1843): [056]    2016-07-08T14:48:15.000Z
+V/CurrentReads( 1843): [057]    2016-07-08T14:48:14.000Z
+V/CurrentReads( 1843): [058]    2016-07-08T14:48:14.000Z
+V/CurrentReads( 1843): [059]    2016-07-08T14:48:14.000Z
+V/CurrentReads( 1843): [060]    2016-07-08T14:48:13.000Z
+V/CurrentReads( 1843): [061]    2016-07-08T14:48:13.000Z
+V/CurrentReads( 1843): [062]    2016-07-08T14:48:13.000Z
+V/CurrentReads( 1843): [063]    2016-07-08T14:48:13.000Z
+V/CurrentReads( 1843): [064]    2016-07-08T14:48:12.000Z
+V/CurrentReads( 1843): [065]    2016-07-08T14:48:12.000Z
+V/CurrentReads( 1843): [066]    2016-07-08T14:48:12.000Z
+V/CurrentReads( 1843): [067]    2016-07-08T14:48:12.000Z
+V/CurrentReads( 1843): [068]    2016-07-08T14:48:11.000Z
+V/CurrentReads( 1843): [069]    2016-07-08T14:48:11.000Z
+V/CurrentReads( 1843): [070]    2016-07-08T14:48:11.000Z
+V/CurrentReads( 1843): [071]    2016-07-08T14:48:11.000Z
+V/CurrentReads( 1843): [072]    2016-07-08T14:48:11.000Z
+V/CurrentReads( 1843): [073]    2016-07-08T14:48:11.000Z
+V/CurrentReads( 1843): [074]    2016-07-08T14:48:11.000Z
+V/CurrentReads( 1843): [075]    2016-07-08T14:48:10.000Z
+V/CurrentReads( 1843): [076]    2016-07-08T14:48:10.000Z
+V/CurrentReads( 1843): [077]    2016-07-08T14:48:10.000Z
+V/CurrentReads( 1843): [078]    2016-07-08T14:48:10.000Z
+V/CurrentReads( 1843): [079]    2016-07-08T14:48:10.000Z
+V/CurrentReads( 1843): [080]    2016-07-08T14:48:10.000Z
+V/CurrentReads( 1843): [081]    2016-07-08T14:48:10.000Z
+V/CurrentReads( 1843): [082]    2016-07-08T14:48:10.000Z
+V/CurrentReads( 1843): [083]    2016-07-08T14:48:10.000Z
+V/CurrentReads( 1843): [084]    2016-07-08T14:48:10.000Z
+V/CurrentReads( 1843): [085]    2016-07-08T14:48:09.000Z
+V/CurrentReads( 1843): [086]    2016-07-08T14:48:09.000Z
+V/CurrentReads( 1843): [087]    2016-07-08T14:48:09.000Z
+V/CurrentReads( 1843): [088]    2016-07-08T14:48:09.000Z
+V/CurrentReads( 1843): [089]    2016-07-08T14:48:09.000Z
+V/CurrentReads( 1843): [090]    2016-07-08T14:48:09.000Z
+V/CurrentReads( 1843): [091]    2016-07-08T14:48:08.000Z
+V/CurrentReads( 1843): [092]    2016-07-08T14:48:08.000Z
+V/CurrentReads( 1843): [093]    2016-07-08T14:48:08.000Z
+V/CurrentReads( 1843): [094]    2016-07-08T14:48:08.000Z
+V/CurrentReads( 1843): [095]    2016-07-08T14:48:08.000Z
+V/CurrentReads( 1843): [096]    2016-07-08T14:48:08.000Z
+V/CurrentReads( 1843): [097]    2016-07-08T14:48:08.000Z
+V/CurrentReads( 1843): [098]    2016-07-08T14:48:08.000Z
+V/CurrentReads( 1843): [099]    2016-07-08T14:48:07.000Z
+V/CurrentReads( 1843): [100]    2016-07-08T14:48:07.000Z
+V/CurrentReads( 1843): [101]    2016-07-08T14:48:07.000Z
+V/CurrentReads( 1843): [102]    2016-07-08T14:48:07.000Z
+V/CurrentReads( 1843): [103]    2016-07-08T14:48:07.000Z
+V/CurrentReads( 1843): [104]    2016-07-08T14:48:07.000Z
+V/CurrentReads( 1843): [105]    2016-07-08T14:48:07.000Z
+V/CurrentReads( 1843): [106]    2016-07-08T14:48:06.000Z
+V/CurrentReads( 1843): [107]    2016-07-08T14:48:06.000Z
+V/CurrentReads( 1843): [108]    2016-07-08T14:48:06.000Z
+V/CurrentReads( 1843): [109]    2016-07-08T14:48:06.000Z
+V/CurrentReads( 1843): [110]    2016-07-08T14:48:06.000Z
+D/Genymotion(   58): Received Ping
+V/CurrentReads( 1843): [111]    2016-07-08T14:48:06.000Z
+V/CurrentReads( 1843): [112]    2016-07-08T14:48:06.000Z
+V/CurrentReads( 1843): [113]    2016-07-08T14:48:06.000Z
+V/CurrentReads( 1843): [114]    2016-07-08T14:48:06.000Z
+V/CurrentReads( 1843): [115]    2016-07-08T14:48:05.000Z
+V/CurrentReads( 1843): [116]    2016-07-08T14:48:05.000Z
+V/CurrentReads( 1843): [117]    2016-07-08T14:48:05.000Z
+V/CurrentReads( 1843): [118]    2016-07-08T14:48:05.000Z
+V/CurrentReads( 1843): [119]    2016-07-08T14:48:05.000Z
+V/CurrentReads( 1843): [120]    2016-07-08T14:48:05.000Z
+V/CurrentReads( 1843): [121]    2016-07-08T14:48:05.000Z
+V/CurrentReads( 1843): [122]    2016-07-08T14:48:04.000Z
+V/CurrentReads( 1843): [123]    2016-07-08T14:48:04.000Z
+V/CurrentReads( 1843): [124]    2016-07-08T14:48:04.000Z
+V/CurrentReads( 1843): [125]    2016-07-08T14:48:04.000Z
+V/CurrentReads( 1843): [126]    2016-07-08T14:48:04.000Z
+V/CurrentReads( 1843): [127]    2016-07-08T14:48:03.000Z
+V/CurrentReads( 1843): [128]    2016-07-08T14:48:03.000Z
+V/CurrentReads( 1843): [129]    2016-07-08T14:48:03.000Z
+V/CurrentReads( 1843): [130]    2016-07-08T14:48:03.000Z
+V/CurrentReads( 1843): [131]    2016-07-08T14:48:03.000Z
+V/CurrentReads( 1843): [132]    2016-07-08T14:48:03.000Z
+V/CurrentReads( 1843): [133]    2016-07-08T14:48:03.000Z
+V/CurrentReads( 1843): [134]    2016-07-08T14:48:03.000Z
+V/CurrentReads( 1843): [135]    2016-07-08T14:48:03.000Z
+V/CurrentReads( 1843): [136]    2016-07-08T14:48:03.000Z
+V/CurrentReads( 1843): [137]    2016-07-08T14:48:02.000Z
+V/CurrentReads( 1843): [138]    2016-07-08T14:48:02.000Z
+V/CurrentReads( 1843): [139]    2016-07-08T14:48:02.000Z
+V/CurrentReads( 1843): [140]    2016-07-08T14:48:02.000Z
+V/CurrentReads( 1843): [141]    2016-07-08T14:48:02.000Z
+V/CurrentReads( 1843): [142]    2016-07-08T14:48:02.000Z
+V/CurrentReads( 1843): [143]    2016-07-08T14:48:01.000Z
+V/CurrentReads( 1843): [144]    2016-07-08T14:48:01.000Z
+V/CurrentReads( 1843): [145]    2016-07-08T14:48:01.000Z
+V/CurrentReads( 1843): [146]    2016-07-08T14:48:01.000Z
+V/CurrentReads( 1843): [147]    2016-07-08T14:48:01.000Z
+V/CurrentReads( 1843): [148]    2016-07-08T14:48:01.000Z
+V/CurrentReads( 1843): [149]    2016-07-08T14:48:01.000Z
+V/CurrentReads( 1843): [150]    2016-07-08T14:48:01.000Z
+V/CurrentReads( 1843): [151]    2016-07-08T14:48:00.000Z
+V/CurrentReads( 1843): [152]    2016-07-08T14:48:00.000Z
+V/CurrentReads( 1843): [153]    2016-07-08T14:48:00.000Z
+V/CurrentReads( 1843): [154]    2016-07-08T14:48:00.000Z
+V/CurrentReads( 1843): [155]    2016-07-08T14:48:00.000Z
+V/CurrentReads( 1843): [156]    2016-07-08T14:48:00.000Z
+V/CurrentReads( 1843): [157]    2016-07-08T14:48:00.000Z
+V/CurrentReads( 1843): [158]    2016-07-08T14:48:00.000Z
+V/CurrentReads( 1843): [159]    2016-07-08T14:48:00.000Z
+V/CurrentReads( 1843): [160]    2016-07-08T14:48:00.000Z
+V/CurrentReads( 1843): [161]    2016-07-08T14:47:59.000Z
+V/CurrentReads( 1843): [162]    2016-07-08T14:47:59.000Z
+V/CurrentReads( 1843): [163]    2016-07-08T14:47:59.000Z
+V/CurrentReads( 1843): [164]    2016-07-08T14:47:59.000Z
+V/CurrentReads( 1843): [165]    2016-07-08T14:47:59.000Z
+V/CurrentReads( 1843): [166]    2016-07-08T14:47:59.000Z
+V/CurrentReads( 1843): [167]    2016-07-08T14:47:59.000Z
+V/CurrentReads( 1843): [168]    2016-07-08T14:47:58.000Z
+V/CurrentReads( 1843): [169]    2016-07-08T14:47:58.000Z
+V/CurrentReads( 1843): [170]    2016-07-08T14:47:58.000Z
+V/CurrentReads( 1843): [171]    2016-07-08T14:47:58.000Z
+V/CurrentReads( 1843): [172]    2016-07-08T14:47:58.000Z
+V/CurrentReads( 1843): [173]    2016-07-08T14:47:58.000Z
+V/CurrentReads( 1843): [174]    2016-07-08T14:47:57.000Z
+V/CurrentReads( 1843): [175]    2016-07-08T14:47:56.000Z
+V/CurrentReads( 1843): [176]    2016-07-08T14:47:56.000Z
+V/CurrentReads( 1843): [177]    2016-07-08T14:47:56.000Z
+V/CurrentReads( 1843): [178]    2016-07-08T14:47:56.000Z
+V/CurrentReads( 1843): [179]    2016-07-08T14:47:56.000Z
+V/CurrentReads( 1843): [180]    2016-07-08T14:47:56.000Z
+V/CurrentReads( 1843): [181]    2016-07-08T14:47:55.000Z
+V/CurrentReads( 1843): [182]    2016-07-08T14:47:55.000Z
+V/CurrentReads( 1843): [183]    2016-07-08T14:47:55.000Z
+V/CurrentReads( 1843): [184]    2016-07-08T14:47:55.000Z
+V/CurrentReads( 1843): [185]    2016-07-08T14:47:54.000Z
+V/CurrentReads( 1843): [186]    2016-07-08T14:47:54.000Z
+V/CurrentReads( 1843): [187]    2016-07-08T14:47:54.000Z
+V/CurrentReads( 1843): [188]    2016-07-08T14:47:54.000Z
+V/CurrentReads( 1843): [189]    2016-07-08T14:47:53.000Z
+V/CurrentReads( 1843): [190]    2016-07-08T14:47:53.000Z
+V/CurrentReads( 1843): [191]    2016-07-08T14:47:53.000Z
+V/CurrentReads( 1843): [192]    2016-07-08T14:47:53.000Z
+V/CurrentReads( 1843): [193]    2016-07-08T14:47:53.000Z
+V/CurrentReads( 1843): [194]    2016-07-08T14:47:53.000Z
+V/CurrentReads( 1843): [195]    2016-07-08T14:47:53.000Z
+V/CurrentReads( 1843): [196]    2016-07-08T14:47:52.000Z
+V/CurrentReads( 1843): [197]    2016-07-08T14:47:52.000Z
+V/CurrentReads( 1843): [198]    2016-07-08T14:47:52.000Z
+V/CurrentReads( 1843): [199]    2016-07-08T14:47:52.000Z
+V/CurrentReads( 1843): [200]    2016-07-08T14:47:52.000Z
+V/CurrentReads( 1843): [201]    2016-07-08T14:47:52.000Z
+V/CurrentReads( 1843): [202]    2016-07-08T14:47:52.000Z
+V/CurrentReads( 1843): [203]    2016-07-08T14:47:51.000Z
+V/CurrentReads( 1843): [204]    2016-07-08T14:47:51.000Z
+V/CurrentReads( 1843): [205]    2016-07-08T14:47:51.000Z
+V/CurrentReads( 1843): [206]    2016-07-08T14:47:51.000Z
+V/CurrentReads( 1843): [207]    2016-07-08T14:47:51.000Z
+V/CurrentReads( 1843): [208]    2016-07-08T14:47:51.000Z
+V/CurrentReads( 1843): [209]    2016-07-08T14:47:51.000Z
+V/CurrentReads( 1843): [210]    2016-07-08T14:47:51.000Z
+V/CurrentReads( 1843): [211]    2016-07-08T14:47:50.000Z
+V/CurrentReads( 1843): [212]    2016-07-08T14:47:50.000Z
+V/CurrentReads( 1843): [213]    2016-07-08T14:47:50.000Z
+V/CurrentReads( 1843): [214]    2016-07-08T14:47:50.000Z
+V/CurrentReads( 1843): [215]    2016-07-08T14:47:50.000Z
+V/CurrentReads( 1843): [216]    2016-07-08T14:47:49.000Z
+V/CurrentReads( 1843): [217]    2016-07-08T14:47:49.000Z
+V/CurrentReads( 1843): [218]    2016-07-08T14:47:49.000Z
+V/CurrentReads( 1843): [219]    2016-07-08T14:47:49.000Z
+V/CurrentReads( 1843): [220]    2016-07-08T14:47:49.000Z
+V/CurrentReads( 1843): [221]    2016-07-08T14:47:49.000Z
+V/CurrentReads( 1843): [222]    2016-07-08T14:47:49.000Z
+V/CurrentReads( 1843): [223]    2016-07-08T14:47:49.000Z
+V/CurrentReads( 1843): [224]    2016-07-08T14:47:48.000Z
+V/CurrentReads( 1843): [225]    2016-07-08T14:47:48.000Z
+V/CurrentReads( 1843): [226]    2016-07-08T14:47:48.000Z
+V/CurrentReads( 1843): [227]    2016-07-08T14:47:48.000Z
+V/CurrentReads( 1843): [228]    2016-07-08T14:47:48.000Z
+V/CurrentReads( 1843): [229]    2016-07-08T14:47:48.000Z
+V/CurrentReads( 1843): [230]    2016-07-08T14:47:47.000Z
+V/CurrentReads( 1843): [231]    2016-07-08T14:47:47.000Z
+V/CurrentReads( 1843): [232]    2016-07-08T14:47:47.000Z
+V/CurrentReads( 1843): [233]    2016-07-08T14:47:46.000Z
+V/CurrentReads( 1843): [234]    2016-07-08T14:47:46.000Z
+V/CurrentReads( 1843): [235]    2016-07-08T14:47:46.000Z
+V/CurrentReads( 1843): [236]    2016-07-08T14:47:46.000Z
+V/CurrentReads( 1843): [237]    2016-07-08T14:47:46.000Z
+V/CurrentReads( 1843): [238]    2016-07-08T14:47:46.000Z
+V/CurrentReads( 1843): [239]    2016-07-08T14:47:46.000Z
+V/CurrentReads( 1843): [240]    2016-07-08T14:47:45.000Z
+V/CurrentReads( 1843): [241]    2016-07-08T14:47:45.000Z
+V/CurrentReads( 1843): [242]    2016-07-08T14:47:45.000Z
+V/CurrentReads( 1843): [243]    2016-07-08T14:47:45.000Z
+V/CurrentReads( 1843): [244]    2016-07-08T14:47:45.000Z
+V/CurrentReads( 1843): [245]    2016-07-08T14:47:45.000Z
+V/CurrentReads( 1843): [246]    2016-07-08T14:47:44.000Z
+V/CurrentReads( 1843): [247]    2016-07-08T14:47:44.000Z
+V/CurrentReads( 1843): [248]    2016-07-08T14:47:44.000Z
+V/CurrentReads( 1843): [249]    2016-07-08T14:47:44.000Z
+V/CurrentReads( 1843): [250]    2016-07-08T14:47:44.000Z
+V/CurrentReads( 1843): [251]    2016-07-08T14:47:44.000Z
+V/CurrentReads( 1843): [252]    2016-07-08T14:47:43.000Z
+V/CurrentReads( 1843): [253]    2016-07-08T14:47:43.000Z
+V/CurrentReads( 1843): [254]    2016-07-08T14:47:43.000Z
+V/CurrentReads( 1843): [255]    2016-07-08T14:47:43.000Z
+V/CurrentReads( 1843): [256]    2016-07-08T14:47:43.000Z
+V/CurrentReads( 1843): [257]    2016-07-08T14:47:42.000Z
+V/CurrentReads( 1843): [258]    2016-07-08T14:47:42.000Z
+V/CurrentReads( 1843): [259]    2016-07-08T14:47:41.000Z
+V/CurrentReads( 1843): [260]    2016-07-08T14:47:41.000Z
+V/CurrentReads( 1843): [261]    2016-07-08T14:47:41.000Z
+V/CurrentReads( 1843): [262]    2016-07-08T14:47:41.000Z
+V/CurrentReads( 1843): [263]    2016-07-08T14:47:41.000Z
+V/CurrentReads( 1843): [264]    2016-07-08T14:47:41.000Z
+V/CurrentReads( 1843): [265]    2016-07-08T14:47:41.000Z
+V/CurrentReads( 1843): [266]    2016-07-08T14:47:41.000Z
+V/CurrentReads( 1843): [267]    2016-07-08T14:47:41.000Z
+V/CurrentReads( 1843): [268]    2016-07-08T14:47:40.000Z
+V/CurrentReads( 1843): [269]    2016-07-08T14:47:40.000Z
+V/CurrentReads( 1843): [270]    2016-07-08T14:47:40.000Z
+V/CurrentReads( 1843): [271]    2016-07-08T14:47:40.000Z
+V/CurrentReads( 1843): [272]    2016-07-08T14:47:40.000Z
+V/CurrentReads( 1843): [273]    2016-07-08T14:47:40.000Z
+V/CurrentReads( 1843): [274]    2016-07-08T14:47:40.000Z
+V/CurrentReads( 1843): [275]    2016-07-08T14:47:40.000Z
+V/CurrentReads( 1843): [276]    2016-07-08T14:47:39.000Z
+V/CurrentReads( 1843): [277]    2016-07-08T14:47:39.000Z
+V/CurrentReads( 1843): [278]    2016-07-08T14:47:39.000Z
+V/CurrentReads( 1843): [279]    2016-07-08T14:47:39.000Z
+V/CurrentReads( 1843): [280]    2016-07-08T14:47:39.000Z
+V/CurrentReads( 1843): [281]    2016-07-08T14:47:39.000Z
+V/CurrentReads( 1843): [282]    2016-07-08T14:47:39.000Z
+V/CurrentReads( 1843): [283]    2016-07-08T14:47:39.000Z
+V/CurrentReads( 1843): [284]    2016-07-08T14:47:38.000Z
+V/CurrentReads( 1843): [285]    2016-07-08T14:47:38.000Z
+V/CurrentReads( 1843): [286]    2016-07-08T14:47:38.000Z
+V/CurrentReads( 1843): [287]    2016-07-08T14:47:38.000Z
+V/CurrentReads( 1843): [288]    2016-07-08T14:47:38.000Z
+V/CurrentReads( 1843): [289]    2016-07-08T14:47:38.000Z
+V/CurrentReads( 1843): [290]    2016-07-08T14:47:37.000Z
+V/CurrentReads( 1843): [291]    2016-07-08T14:47:37.000Z
+V/CurrentReads( 1843): [292]    2016-07-08T14:47:37.000Z
+V/CurrentReads( 1843): [293]    2016-07-08T14:47:37.000Z
+V/CurrentReads( 1843): [294]    2016-07-08T14:47:37.000Z
+V/CurrentReads( 1843): [295]    2016-07-08T14:47:37.000Z
+V/CurrentReads( 1843): [296]    2016-07-08T14:47:36.000Z
+V/CurrentReads( 1843): [297]    2016-07-08T14:47:36.000Z
+V/CurrentReads( 1843): [298]    2016-07-08T14:47:36.000Z
+V/CurrentReads( 1843): [299]    2016-07-08T14:47:36.000Z
+V/CurrentReads( 1843): [300]    2016-07-08T14:47:36.000Z
+V/CurrentReads( 1843): [301]    2016-07-08T14:47:36.000Z
+V/CurrentReads( 1843): [302]    2016-07-08T14:47:35.000Z
+V/CurrentReads( 1843): [303]    2016-07-08T14:47:35.000Z
+V/CurrentReads( 1843): [304]    2016-07-08T14:47:35.000Z
+V/CurrentReads( 1843): [305]    2016-07-08T14:47:34.000Z
+V/CurrentReads( 1843): [306]    2016-07-08T14:47:34.000Z
+V/CurrentReads( 1843): [307]    2016-07-08T14:47:34.000Z
+V/CurrentReads( 1843): [308]    2016-07-08T14:47:34.000Z
+V/CurrentReads( 1843): [309]    2016-07-08T14:47:34.000Z
+V/CurrentReads( 1843): [310]    2016-07-08T14:47:33.000Z
+V/CurrentReads( 1843): [311]    2016-07-08T14:47:33.000Z
+V/CurrentReads( 1843): [312]    2016-07-08T14:47:33.000Z
+V/CurrentReads( 1843): [313]    2016-07-08T14:47:33.000Z
+V/CurrentReads( 1843): [314]    2016-07-08T14:47:33.000Z
+V/CurrentReads( 1843): [315]    2016-07-08T14:47:32.000Z
+V/CurrentReads( 1843): [316]    2016-07-08T14:47:32.000Z
+V/CurrentReads( 1843): [317]    2016-07-08T14:47:32.000Z
+V/CurrentReads( 1843): [318]    2016-07-08T14:47:32.000Z
+V/CurrentReads( 1843): [319]    2016-07-08T14:47:32.000Z
+V/CurrentReads( 1843): [320]    2016-07-08T14:47:32.000Z
+V/CurrentReads( 1843): [321]    2016-07-08T14:47:31.000Z
+V/CurrentReads( 1843): [322]    2016-07-08T14:47:31.000Z
+V/CurrentReads( 1843): [323]    2016-07-08T14:47:31.000Z
+V/CurrentReads( 1843): [324]    2016-07-08T14:47:30.000Z
+V/CurrentReads( 1843): [325]    2016-07-08T14:47:30.000Z
+V/CurrentReads( 1843): [326]    2016-07-08T14:47:30.000Z
+V/CurrentReads( 1843): [327]    2016-07-08T14:47:30.000Z
+V/CurrentReads( 1843): [328]    2016-07-08T14:47:30.000Z
+V/CurrentReads( 1843): [329]    2016-07-08T14:47:29.000Z
+V/CurrentReads( 1843): [330]    2016-07-08T14:47:29.000Z
+V/CurrentReads( 1843): [331]    2016-07-08T14:47:29.000Z
+V/CurrentReads( 1843): [332]    2016-07-08T14:47:29.000Z
+V/CurrentReads( 1843): [333]    2016-07-08T14:47:28.000Z
+V/CurrentReads( 1843): [334]    2016-07-08T14:47:27.000Z
+V/CurrentReads( 1843): [335]    2016-07-08T14:47:27.000Z
+V/CurrentReads( 1843): [336]    2016-07-08T14:47:27.000Z
+V/CurrentReads( 1843): [337]    2016-07-08T14:47:26.000Z
+V/CurrentReads( 1843): [338]    2016-07-08T14:47:26.000Z
+V/CurrentReads( 1843): [339]    2016-07-08T14:47:26.000Z
+V/CurrentReads( 1843): [340]    2016-07-08T14:47:26.000Z
+V/CurrentReads( 1843): [341]    2016-07-08T14:47:26.000Z
+V/CurrentReads( 1843): [342]    2016-07-08T14:47:26.000Z
+V/CurrentReads( 1843): [343]    2016-07-08T14:47:25.000Z
+V/CurrentReads( 1843): [344]    2016-07-08T14:47:25.000Z
+V/CurrentReads( 1843): [345]    2016-07-08T14:47:25.000Z
+V/CurrentReads( 1843): [346]    2016-07-08T14:47:24.000Z
+V/CurrentReads( 1843): [347]    2016-07-08T14:47:24.000Z
+V/CurrentReads( 1843): [348]    2016-07-08T14:47:24.000Z
+V/CurrentReads( 1843): [349]    2016-07-08T14:47:24.000Z
+V/CurrentReads( 1843): [350]    2016-07-08T14:47:24.000Z
+V/CurrentReads( 1843): [351]    2016-07-08T14:47:24.000Z
+V/CurrentReads( 1843): [352]    2016-07-08T14:47:23.000Z
+V/CurrentReads( 1843): [353]    2016-07-08T14:47:23.000Z
+V/CurrentReads( 1843): [354]    2016-07-08T14:47:23.000Z
+V/CurrentReads( 1843): [355]    2016-07-08T14:47:23.000Z
+V/CurrentReads( 1843): [356]    2016-07-08T14:47:23.000Z
+V/CurrentReads( 1843): [357]    2016-07-08T14:47:22.000Z
+V/CurrentReads( 1843): [358]    2016-07-08T14:47:22.000Z
+V/CurrentReads( 1843): [359]    2016-07-08T14:47:22.000Z
+V/CurrentReads( 1843): [360]    2016-07-08T14:47:22.000Z
+V/CurrentReads( 1843): [361]    2016-07-08T14:47:22.000Z
+V/CurrentReads( 1843): [362]    2016-07-08T14:47:22.000Z
+V/CurrentReads( 1843): [363]    2016-07-08T14:47:22.000Z
+V/CurrentReads( 1843): [364]    2016-07-08T14:47:21.000Z
+V/CurrentReads( 1843): [365]    2016-07-08T14:47:21.000Z
+V/CurrentReads( 1843): [366]    2016-07-08T14:47:20.000Z
+V/CurrentReads( 1843): [367]    2016-07-08T14:47:20.000Z
+V/CurrentReads( 1843): [368]    2016-07-08T14:47:20.000Z
+V/CurrentReads( 1843): [369]    2016-07-08T14:47:20.000Z
+V/CurrentReads( 1843): [370]    2016-07-08T14:47:20.000Z
+V/CurrentReads( 1843): [371]    2016-07-08T14:47:20.000Z
+V/CurrentReads( 1843): [372]    2016-07-08T14:47:19.000Z
+V/CurrentReads( 1843): [373]    2016-06-27T21:46:53.000Z
+V/CurrentReads( 1843): [374]    2016-06-17T16:05:31.000Z
+V/CurrentReads( 1843): [375]    2016-06-17T16:05:06.000Z
+V/CurrentReads( 1843): [376]    2016-06-15T15:40:15.000Z
+V/CurrentReads( 1843): [377]    2016-06-14T21:44:05.000Z
+V/CurrentReads( 1843): [378]    2016-06-14T20:55:54.000Z
+V/CurrentReads( 1843): [379]    2016-06-14T19:45:52.000Z
+V/CurrentReads( 1843): [380]    2016-06-14T19:19:49.000Z
+V/CurrentReads( 1843): [381]    2016-06-14T15:50:56.000Z
+V/CurrentReads( 1843): [382]    2016-06-10T20:12:19.000Z
+V/CurrentReads( 1843): [383]    2016-06-10T17:31:58.000Z
+V/CurrentReads( 1843): [384]    2016-06-10T17:31:02.000Z
+V/CurrentReads( 1843): [385]    2016-06-08T22:00:10.000Z
+V/CurrentReads( 1843): [386]    2016-06-08T19:53:58.000Z
+V/CurrentReads( 1843): [387]    2016-06-08T18:24:33.000Z
+V/CurrentReads( 1843): [388]    2016-06-08T17:53:40.000Z
+V/CurrentReads( 1843): [389]    2016-06-03T16:50:57.000Z
+V/CurrentReads( 1843): [390]    2016-06-03T16:50:11.000Z
+V/CurrentReads( 1843): [391]    2016-06-03T15:26:35.000Z
+V/CurrentReads( 1843): [392]    2016-06-02T18:33:25.000Z
+V/CurrentReads( 1843): [393]    2016-06-02T18:27:07.000Z
+V/CurrentReads( 1843): [394]    2016-06-02T18:25:24.000Z
+V/CurrentReads( 1843): [395]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [396]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [397]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [398]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [399]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [400]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [401]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [402]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [403]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [404]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [405]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [406]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [407]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [408]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [409]    2016-06-01T01:29:24.000Z
+V/CurrentReads( 1843): [410]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [411]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [412]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [413]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [414]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [415]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [416]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [417]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [418]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [419]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [420]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [421]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [422]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [423]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [424]    2016-06-01T01:29:23.000Z
+V/CurrentReads( 1843): [425]    2016-06-01T01:29:22.000Z
+V/CurrentReads( 1843): [426]    2016-06-01T01:29:22.000Z
+V/CurrentReads( 1843): [427]    2016-06-01T01:29:22.000Z
+V/CurrentReads( 1843): [428]    2016-06-01T01:29:22.000Z
+V/CurrentReads( 1843): [429]    2016-06-01T01:29:22.000Z
+V/CurrentReads( 1843): [430]    2016-06-01T01:29:22.000Z
+V/CurrentReads( 1843): [431]    2016-06-01T01:29:22.000Z
+V/CurrentReads( 1843): [432]    2016-06-01T01:29:22.000Z
+V/CurrentReads( 1843): [433]    2016-06-01T01:29:22.000Z
+V/CurrentReads( 1843): [434]    2016-06-01T01:29:22.000Z
+V/CurrentReads( 1843): [435]    2016-06-01T01:29:18.000Z
+V/CurrentReads( 1843): [436]    2016-06-01T01:29:18.000Z
+V/CurrentReads( 1843): [437]    2016-06-01T01:29:18.000Z
+V/CurrentReads( 1843): [438]    2016-06-01T01:29:18.000Z
+V/CurrentReads( 1843): [439]    2016-06-01T01:29:18.000Z
+V/CurrentReads( 1843): [440]    2016-06-01T01:29:17.000Z
+V/CurrentReads( 1843): [441]    2016-06-01T01:29:17.000Z
+V/CurrentReads( 1843): [442]    2016-06-01T01:29:17.000Z
+V/CurrentReads( 1843): [443]    2016-06-01T01:29:16.000Z
+V/CurrentReads( 1843): [444]    2016-06-01T01:29:16.000Z
+V/CurrentReads( 1843): [445]    2016-06-01T01:29:16.000Z
+V/CurrentReads( 1843): [446]    2016-06-01T01:29:16.000Z
+V/CurrentReads( 1843): [447]    2016-06-01T01:29:16.000Z
+V/CurrentReads( 1843): [448]    2016-06-01T01:29:16.000Z
+V/CurrentReads( 1843): [449]    2016-06-01T01:29:16.000Z
+V/CurrentReads( 1843): [450]    2016-06-01T01:29:16.000Z
+V/CurrentReads( 1843): [451]    2016-06-01T01:29:16.000Z
+V/CurrentReads( 1843): [452]    2016-06-01T01:29:16.000Z
+V/CurrentReads( 1843): [453]    2016-06-01T01:29:15.000Z
+V/CurrentReads( 1843): [454]    2016-06-01T01:29:15.000Z
+V/CurrentReads( 1843): [455]    2016-06-01T01:29:15.000Z
+V/CurrentReads( 1843): [456]    2016-06-01T01:29:15.000Z
+V/CurrentReads( 1843): [457]    2016-06-01T01:29:15.000Z
+V/CurrentReads( 1843): [458]    2016-06-01T01:29:14.000Z
+V/CurrentReads( 1843): [459]    2016-06-01T01:29:14.000Z
+V/CurrentReads( 1843): [460]    2016-06-01T01:29:14.000Z
+V/CurrentReads( 1843): [461]    2016-06-01T01:29:14.000Z
+V/CurrentReads( 1843): [462]    2016-06-01T01:29:14.000Z
+V/CurrentReads( 1843): [463]    2016-06-01T01:29:14.000Z
+V/CurrentReads( 1843): [464]    2016-06-01T01:29:14.000Z
+V/CurrentReads( 1843): [465]    2016-06-01T01:29:14.000Z
+V/CurrentReads( 1843): [466]    2016-06-01T01:29:14.000Z
+V/CurrentReads( 1843): [467]    2016-06-01T01:29:13.000Z
+V/CurrentReads( 1843): [468]    2016-06-01T01:29:13.000Z
+V/CurrentReads( 1843): [469]    2016-06-01T01:29:13.000Z
+V/CurrentReads( 1843): [470]    2016-06-01T01:29:13.000Z
+V/CurrentReads( 1843): [471]    2016-06-01T01:29:13.000Z
+V/CurrentReads( 1843): [472]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [473]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [474]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [475]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [476]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [477]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [478]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [479]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [480]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [481]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [482]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [483]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [484]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [485]    2016-06-01T01:29:12.000Z
+V/CurrentReads( 1843): [486]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [487]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [488]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [489]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [490]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [491]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [492]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [493]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [494]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [495]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [496]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [497]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [498]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [499]    2016-06-01T01:29:11.000Z
+V/CurrentReads( 1843): [500]    2016-06-01T01:29:10.000Z
+V/CurrentReads( 1843): [501]    2016-06-01T01:29:10.000Z
+V/CurrentReads( 1843): [502]    2016-06-01T01:29:10.000Z
+V/CurrentReads( 1843): [503]    2016-06-01T01:29:10.000Z
+V/CurrentReads( 1843): [504]    2016-06-01T01:29:10.000Z
+V/CurrentReads( 1843): [505]    2016-06-01T01:29:10.000Z
+V/CurrentReads( 1843): [506]    2016-06-01T01:29:10.000Z
+V/CurrentReads( 1843): [507]    2016-06-01T01:29:10.000Z
+V/CurrentReads( 1843): [508]    2016-06-01T01:29:10.000Z
+V/CurrentReads( 1843): [509]    2016-06-01T01:29:09.000Z
+V/CurrentReads( 1843): [510]    2016-06-01T01:29:09.000Z
+V/CurrentReads( 1843): [511]    2016-06-01T01:29:09.000Z
+V/CurrentReads( 1843): [512]    2016-06-01T01:29:07.000Z
+V/CurrentReads( 1843): [513]    2016-06-01T01:29:07.000Z
+V/CurrentReads( 1843): [514]    2016-06-01T01:29:07.000Z
+V/CurrentReads( 1843): [515]    2016-06-01T01:29:07.000Z
+V/CurrentReads( 1843): [516]    2016-06-01T01:29:07.000Z
+V/CurrentReads( 1843): [517]    2016-06-01T01:29:07.000Z
+V/CurrentReads( 1843): [518]    2016-06-01T01:29:07.000Z
+V/CurrentReads( 1843): [519]    2016-06-01T01:29:07.000Z
+V/CurrentReads( 1843): [520]    2016-06-01T01:29:07.000Z
+V/CurrentReads( 1843): [521]    2016-06-01T01:29:07.000Z
+V/CurrentReads( 1843): [522]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [523]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [524]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [525]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [526]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [527]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [528]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [529]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [530]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [531]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [532]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [533]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [534]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [535]    2016-06-01T01:29:05.000Z
+V/CurrentReads( 1843): [536]    2016-06-01T01:29:05.000Z
+D/dalvikvm(  381): GC_FOR_ALLOC freed 512K, 30% free 14134K/20140K, paused 16ms, total 21ms
+D/dalvikvm(  381): GC_FOR_ALLOC freed 747K, 32% free 13758K/20140K, paused 12ms, total 13ms
+V/CurrentReads( 1843): [537]    2016-06-01T01:29:03.000Z
+E/DictionaryHelper( 1843): checkDictionaryInAssetsDir failed: dictionary/en/dictionary.zip
+V/CurrentReads( 1843): [538]    2016-06-01T01:29:03.000Z
+V/CurrentReads( 1843): [539]    2016-06-01T01:29:03.000Z
+V/CurrentReads( 1843): [540]    2016-06-01T01:29:03.000Z
+V/CurrentReads( 1843): [541]    2016-06-01T01:29:03.000Z
+V/CurrentReads( 1843): [542]    2016-06-01T01:29:03.000Z
+V/CurrentReads( 1843): [543]    2016-06-01T01:29:03.000Z
+V/CurrentReads( 1843): [544]    2016-06-01T01:29:03.000Z
+V/CurrentReads( 1843): [545]    2016-06-01T01:29:03.000Z
+V/CurrentReads( 1843): [546]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [547]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [548]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [549]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [550]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [551]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [552]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [553]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [554]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [555]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [556]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [557]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [558]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [559]    2016-06-01T01:29:02.000Z
+V/CurrentReads( 1843): [560]    2016-06-01T01:29:00.000Z
+V/CurrentReads( 1843): [561]    2016-06-01T01:29:00.000Z
+V/CurrentReads( 1843): [562]    2016-06-01T01:29:00.000Z
+V/CurrentReads( 1843): [563]    2016-06-01T01:29:00.000Z
+V/CurrentReads( 1843): [564]    2016-06-01T01:29:00.000Z
+V/CurrentReads( 1843): [565]    2016-06-01T01:28:59.000Z
+V/CurrentReads( 1843): [566]    2016-06-01T01:28:59.000Z
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 6099K, 17% free 33176K/39824K, paused 50ms, total 59ms
+I/dalvikvm-heap( 1843): Grow heap (frag case) to 34.171MB for 1770192-byte allocation
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 57K, 17% free 34847K/41556K, paused 27ms, total 27ms
+V/CurrentReads( 1843): [567]    2016-06-01T01:28:59.000Z
+V/CurrentReads( 1843): [568]    2016-06-01T01:28:59.000Z
+V/CurrentReads( 1843): [569]    2016-06-01T01:28:59.000Z
+V/CurrentReads( 1843): [570]    2016-06-01T01:28:59.000Z
+V/CurrentReads( 1843): [571]    2016-06-01T01:28:59.000Z
+V/CurrentReads( 1843): [572]    2016-06-01T01:28:59.000Z
+V/CurrentReads( 1843): [573]    2016-06-01T01:28:59.000Z
+V/CurrentReads( 1843): [574]    2016-06-01T01:28:59.000Z
+V/CurrentReads( 1843): [575]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [576]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [577]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [578]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [579]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [580]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [581]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [582]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [583]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [584]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [585]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [586]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [587]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [588]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [589]    2016-06-01T01:28:58.000Z
+V/CurrentReads( 1843): [590]    2016-06-01T01:28:57.000Z
+V/CurrentReads( 1843): [591]    2016-06-01T01:28:57.000Z
+V/CurrentReads( 1843): [592]    2016-06-01T01:28:57.000Z
+V/CurrentReads( 1843): [593]    2016-06-01T01:28:57.000Z
+V/CurrentReads( 1843): [594]    2016-06-01T01:28:57.000Z
+V/CurrentReads( 1843): [595]    2016-06-01T01:28:57.000Z
+V/CurrentReads( 1843): [596]    2016-06-01T01:28:57.000Z
+V/CurrentReads( 1843): [597]    2016-06-01T01:28:57.000Z
+V/CurrentReads( 1843): [598]    2016-06-01T01:28:57.000Z
+V/CurrentReads( 1843): [599]    2016-06-01T01:28:57.000Z
+V/CurrentReads( 1843): [600]    2016-06-01T01:28:55.000Z
+V/CurrentReads( 1843): [601]    2016-06-01T01:28:55.000Z
+V/CurrentReads( 1843): [602]    2016-06-01T01:28:55.000Z
+V/CurrentReads( 1843): [603]    2016-06-01T01:28:55.000Z
+V/CurrentReads( 1843): [604]    2016-06-01T01:28:55.000Z
+V/CurrentReads( 1843): [605]    2016-06-01T01:28:55.000Z
+D/com.kobobooks.android.readinglife.synching.GetUserAnnotationsRequest( 1843): sending request for user: b43d7e75-1061-4cf8-a5f9-42663655333f
+V/CurrentReads( 1843): [606]    2016-06-01T01:28:55.000Z
+V/CurrentReads( 1843): [607]    2016-06-01T01:28:55.000Z
+V/CurrentReads( 1843): [608]    2016-06-01T01:28:55.000Z
+V/CurrentReads( 1843): [609]    2016-06-01T01:28:55.000Z
+I/SocialRequest( 1843): HTTP POST
+I/SocialRequest( 1843): https://social.kobobooks.com/AnnotationService/V1.1/get
+I/SocialRequest( 1843): Content-Type = application/xml
+I/SocialRequest( 1843): Authorization = Bearer 1meZoF0mM4ko/uMQuBRiMO7Sw3xqfM1/u88nG7fu21xI6IHRPwRk8epgogzhxjFZK0GzhEquozBtn9shGcqdEHpbgllBghRQpm30l8H0hnKl+H4k/loiBXvagE9jrYJJn4p1mI3iM49xMP3uyCiyIqdvCkvrMpsor3eKLhG/xN2RmXG3vyd4BvJxIeYv9MINAkqpm/DDid4SzlEV7xrWa/DzVdZkq08y+2Z+1cAIg2LFzSOtNLABTFfBRJxpCrbruuejNc67nsZbdVyirfvHk8kRzbzl+8EEnVEJCfhlCW1kCFQ+9HU/bIdqMxgi7/MLQyPyLzLG94GCG9tC7KIMmpowSD/CpJVqItISpyUfeIBwwzpi31RzdhusH3DXT1v6SSmDuGlaSKety9XDmNmA35IxMttiTykGzlXsrHIsKm7QgQ2Qqd1nST36/y9xISGG8zE1Wj6FAtjYUkWNT7iS1qI9GxarKjq3eSPx0+MYXZeiMM1Mb1LkppVVC+fmd1/V0fFZX+LcVRvnmfUwywACsMhT1ywlaXnPNeu7XIrVVt7ITqPqq
+I/SocialRequest( 1843): <?xml version="1.0" encoding="UTF-8"?><GetUserAnnotationsRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><SecurityHeader xmlns="http://kobobooks.com"><UserId>b43d7e75-1061-4cf8-a5f9-42663655333f</UserId><Date>2016-07-08T18:29:43.590Z</Date></SecurityHeader><RequestBody><ModifiedAfter>1970-01-01T00:00:00.000Z</ModifiedAfter><ModifiedBefore>2016-07-08T18:29:43.590Z</ModifiedBefore><AnnotationTypes><AnnotationType>Highlight</AnnotationType><AnnotationType>Note</AnnotationType></AnnotationTypes><AnnotationScopes><AnnotationScope>Span</AnnotationScope></AnnotationScopes><AnnotationVisibilities><AnnotationVisibility>Private</AnnotationVisibility></AnnotationVisibilities></RequestBody></GetUserAnnotationsRequest>
+V/CurrentReads( 1843): [610]    2016-06-01T01:28:55.000Z
+V/CurrentReads( 1843): [611]    2016-06-01T01:28:55.000Z
+V/CurrentReads( 1843): [612]    2016-06-01T01:28:54.000Z
+V/CurrentReads( 1843): [613]    2016-06-01T01:28:54.000Z
+V/CurrentReads( 1843): [614]    2016-06-01T01:28:54.000Z
+V/CurrentReads( 1843): [615]    2016-06-01T01:28:54.000Z
+V/CurrentReads( 1843): [616]    2016-06-01T01:28:54.000Z
+V/CurrentReads( 1843): [617]    2016-06-01T01:28:54.000Z
+V/CurrentReads( 1843): [618]    2016-06-01T01:28:54.000Z
+V/CurrentReads( 1843): [619]    2016-06-01T01:28:54.000Z
+V/CurrentReads( 1843): [620]    2016-06-01T01:28:54.000Z
+V/CurrentReads( 1843): [621]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [622]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [623]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [624]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [625]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [626]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [627]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [628]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [629]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [630]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [631]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [632]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [633]    2016-06-01T01:28:53.000Z
+V/CurrentReads( 1843): [634]    2016-06-01T01:28:52.000Z
+V/CurrentReads( 1843): [635]    2016-06-01T01:28:52.000Z
+V/CurrentReads( 1843): [636]    2016-06-01T01:28:52.000Z
+V/CurrentReads( 1843): [637]    2016-06-01T01:28:52.000Z
+V/CurrentReads( 1843): [638]    2016-06-01T01:28:52.000Z
+V/CurrentReads( 1843): [639]    2016-06-01T01:28:52.000Z
+V/CurrentReads( 1843): [640]    2016-06-01T01:28:52.000Z
+V/CurrentReads( 1843): [641]    2016-06-01T01:28:52.000Z
+V/CurrentReads( 1843): [642]    2016-06-01T01:28:52.000Z
+V/CurrentReads( 1843): [643]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [644]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [645]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [646]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [647]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [648]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [649]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [650]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [651]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [652]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [653]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [654]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [655]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [656]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [657]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [658]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [659]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [660]    2016-06-01T01:28:51.000Z
+V/CurrentReads( 1843): [661]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [662]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [663]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [664]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [665]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [666]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [667]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [668]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [669]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [670]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [671]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [672]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [673]    2016-06-01T01:28:50.000Z
+V/CurrentReads( 1843): [674]    2016-06-01T01:28:49.000Z
+V/CurrentReads( 1843): [675]    2016-06-01T01:28:49.000Z
+V/CurrentReads( 1843): [676]    2016-06-01T01:28:49.000Z
+W/GA-SERVICE(  595): Thread[Thread-143,5,main]:  Using destination https://ssl.google-analytics.com/collect
+V/CurrentReads( 1843): [677]    2016-06-01T01:28:49.000Z
+V/CurrentReads( 1843): [678]    2016-06-01T01:28:49.000Z
+V/CurrentReads( 1843): [679]    2016-06-01T01:28:48.000Z
+V/CurrentReads( 1843): [680]    2016-06-01T01:28:48.000Z
+V/CurrentReads( 1843): [681]    2016-06-01T01:28:48.000Z
+V/CurrentReads( 1843): [682]    2016-06-01T01:28:48.000Z
+V/CurrentReads( 1843): [683]    2016-06-01T01:28:48.000Z
+V/CurrentReads( 1843): [684]    2016-06-01T01:28:47.000Z
+V/CurrentReads( 1843): [685]    2016-06-01T01:28:47.000Z
+V/CurrentReads( 1843): [686]    2016-06-01T01:28:47.000Z
+V/CurrentReads( 1843): [687]    2016-06-01T01:28:47.000Z
+V/CurrentReads( 1843): [688]    2016-06-01T01:28:47.000Z
+V/CurrentReads( 1843): [689]    2016-06-01T01:28:47.000Z
+W/GA-SERVICE(  595): Thread[Thread-143,5,main]:  Using destination https://ssl.google-analytics.com/collect
+V/CurrentReads( 1843): [690]    2016-06-01T01:28:47.000Z
+V/CurrentReads( 1843): [691]    2016-06-01T01:28:47.000Z
+V/CurrentReads( 1843): [692]    2016-06-01T01:28:47.000Z
+V/CurrentReads( 1843): [693]    2016-06-01T01:28:47.000Z
+V/CurrentReads( 1843): [694]    2016-06-01T01:28:46.000Z
+V/CurrentReads( 1843): [695]    2016-06-01T01:28:46.000Z
+V/CurrentReads( 1843): [696]    2016-06-01T01:28:46.000Z
+V/CurrentReads( 1843): [697]    2016-06-01T01:28:46.000Z
+V/CurrentReads( 1843): [698]    2016-05-30T19:09:36.000Z
+V/CurrentReads( 1843): [699]    2016-05-30T19:09:36.000Z
+V/CurrentReads( 1843): [700]    2016-05-30T19:09:36.000Z
+V/CurrentReads( 1843): [701]    2016-05-30T19:09:29.000Z
+V/CurrentReads( 1843): [702]    2016-05-30T19:09:28.000Z
+V/CurrentReads( 1843): [703]    2016-05-30T19:09:28.000Z
+V/CurrentReads( 1843): [704]    2016-05-30T19:09:28.000Z
+V/CurrentReads( 1843): [705]    2016-05-30T19:09:28.000Z
+V/CurrentReads( 1843): [706]    2016-05-30T19:09:28.000Z
+V/CurrentReads( 1843): [707]    2016-05-30T19:09:27.000Z
+V/CurrentReads( 1843): [708]    2016-05-30T19:09:27.000Z
+V/CurrentReads( 1843): [709]    2016-05-30T19:09:27.000Z
+V/CurrentReads( 1843): [710]    2016-05-30T19:09:24.000Z
+V/CurrentReads( 1843): [711]    2016-05-30T19:09:24.000Z
+V/CurrentReads( 1843): [712]    2016-05-30T19:09:24.000Z
+V/CurrentReads( 1843): [713]    2016-05-30T19:09:24.000Z
+V/CurrentReads( 1843): [714]    2016-05-30T19:09:24.000Z
+V/CurrentReads( 1843): [715]    2016-05-30T19:09:24.000Z
+V/CurrentReads( 1843): [716]    2016-05-30T19:09:24.000Z
+V/CurrentReads( 1843): [717]    2016-05-30T19:09:24.000Z
+V/CurrentReads( 1843): [718]    2016-05-30T19:09:24.000Z
+V/CurrentReads( 1843): [719]    2016-05-30T19:09:24.000Z
+V/CurrentReads( 1843): [720]    2016-05-30T19:09:23.000Z
+V/CurrentReads( 1843): [721]    2016-05-30T19:09:23.000Z
+V/CurrentReads( 1843): [722]    2016-05-30T19:09:23.000Z
+V/CurrentReads( 1843): [723]    2016-05-30T19:09:22.000Z
+V/CurrentReads( 1843): [724]    2016-05-30T19:09:22.000Z
+V/CurrentReads( 1843): [725]    2016-05-30T19:09:21.000Z
+V/CurrentReads( 1843): [726]    2016-05-30T19:09:21.000Z
+V/CurrentReads( 1843): [727]    2016-05-30T19:09:21.000Z
+V/CurrentReads( 1843): [728]    2016-05-30T19:09:20.000Z
+V/CurrentReads( 1843): [729]    2016-05-30T19:09:19.000Z
+V/CurrentReads( 1843): [730]    2016-05-30T19:09:19.000Z
+V/CurrentReads( 1843): [731]    2016-05-30T19:09:19.000Z
+V/CurrentReads( 1843): [732]    2016-05-30T19:09:17.000Z
+V/CurrentReads( 1843): [733]    2016-05-30T19:09:17.000Z
+V/CurrentReads( 1843): [734]    2016-05-30T19:09:15.000Z
+V/CurrentReads( 1843): [735]    2016-05-30T19:09:15.000Z
+V/CurrentReads( 1843): [736]    2016-05-30T19:09:15.000Z
+V/CurrentReads( 1843): [737]    2016-05-30T19:09:15.000Z
+V/CurrentReads( 1843): [738]    2016-05-30T19:09:15.000Z
+V/CurrentReads( 1843): [739]    2016-05-30T19:09:15.000Z
+V/CurrentReads( 1843): [740]    2016-05-30T19:09:14.000Z
+V/CurrentReads( 1843): [741]    2016-05-30T19:09:14.000Z
+V/CurrentReads( 1843): [742]    2016-05-30T19:09:13.000Z
+V/CurrentReads( 1843): [743]    2016-05-30T19:09:13.000Z
+V/CurrentReads( 1843): [744]    2016-05-30T19:09:13.000Z
+V/CurrentReads( 1843): [745]    2016-05-30T19:09:13.000Z
+V/CurrentReads( 1843): [746]    2016-05-30T19:09:13.000Z
+V/CurrentReads( 1843): [747]    2016-05-30T19:09:13.000Z
+V/CurrentReads( 1843): [748]    2016-05-30T19:09:13.000Z
+V/CurrentReads( 1843): [749]    2016-05-30T19:09:13.000Z
+V/CurrentReads( 1843): [750]    2016-05-30T19:09:12.000Z
+V/CurrentReads( 1843): [751]    2016-05-30T19:09:12.000Z
+V/CurrentReads( 1843): [752]    2016-05-30T19:09:11.000Z
+V/CurrentReads( 1843): [753]    2016-05-30T19:09:11.000Z
+V/CurrentReads( 1843): [754]    2016-05-30T19:09:11.000Z
+V/CurrentReads( 1843): [755]    2016-05-30T19:09:11.000Z
+V/CurrentReads( 1843): [756]    2016-05-30T19:09:10.000Z
+V/CurrentReads( 1843): [757]    2016-05-30T19:09:09.000Z
+V/CurrentReads( 1843): [758]    2016-05-30T19:09:09.000Z
+V/CurrentReads( 1843): [759]    2016-05-30T19:09:09.000Z
+V/CurrentReads( 1843): [760]    2016-05-30T19:09:08.000Z
+V/CurrentReads( 1843): [761]    2016-05-30T19:09:08.000Z
+V/CurrentReads( 1843): [762]    2016-05-30T19:09:08.000Z
+V/CurrentReads( 1843): [763]    2016-05-30T19:09:08.000Z
+V/CurrentReads( 1843): [764]    2016-05-30T19:09:08.000Z
+V/CurrentReads( 1843): [765]    2016-05-30T19:09:08.000Z
+V/CurrentReads( 1843): [766]    2016-05-30T19:09:07.000Z
+V/CurrentReads( 1843): [767]    2016-05-30T19:09:07.000Z
+V/CurrentReads( 1843): [768]    2016-05-30T19:09:07.000Z
+V/CurrentReads( 1843): [769]    2016-05-30T19:09:06.000Z
+V/CurrentReads( 1843): [770]    2016-05-30T19:09:06.000Z
+V/CurrentReads( 1843): [771]    2016-05-30T19:09:06.000Z
+V/CurrentReads( 1843): [772]    2016-05-30T19:09:06.000Z
+V/CurrentReads( 1843): [773]    2016-05-30T19:09:04.000Z
+V/CurrentReads( 1843): [774]    2016-05-30T19:09:03.000Z
+V/CurrentReads( 1843): [775]    2016-05-30T19:09:03.000Z
+V/CurrentReads( 1843): [776]    2016-05-30T19:09:03.000Z
+V/CurrentReads( 1843): [777]    2016-05-30T19:09:01.000Z
+V/CurrentReads( 1843): [778]    2016-05-30T19:09:01.000Z
+V/CurrentReads( 1843): [779]    2016-05-30T19:09:01.000Z
+V/CurrentReads( 1843): [780]    2016-05-30T19:09:01.000Z
+V/CurrentReads( 1843): [781]    2016-05-30T19:09:00.000Z
+V/CurrentReads( 1843): [782]    2016-05-30T19:09:00.000Z
+V/CurrentReads( 1843): [783]    2016-05-30T19:08:59.000Z
+V/CurrentReads( 1843): [784]    2016-05-30T19:08:59.000Z
+V/CurrentReads( 1843): [785]    2016-05-30T19:08:58.000Z
+V/CurrentReads( 1843): [786]    2016-05-30T19:08:58.000Z
+V/CurrentReads( 1843): [787]    2016-05-30T19:08:58.000Z
+V/CurrentReads( 1843): [788]    2016-05-30T19:08:57.000Z
+V/CurrentReads( 1843): [789]    2016-05-30T19:08:57.000Z
+V/CurrentReads( 1843): [790]    2016-05-30T19:08:57.000Z
+V/CurrentReads( 1843): [791]    2016-05-30T19:08:57.000Z
+V/CurrentReads( 1843): [792]    2016-05-30T19:08:55.000Z
+V/CurrentReads( 1843): [793]    2016-05-30T19:08:55.000Z
+V/CurrentReads( 1843): [794]    2016-05-30T19:08:55.000Z
+V/CurrentReads( 1843): [795]    2016-05-30T19:08:54.000Z
+V/CurrentReads( 1843): [796]    2016-05-30T19:08:54.000Z
+V/CurrentReads( 1843): [797]    2016-05-30T19:08:54.000Z
+V/CurrentReads( 1843): [798]    2016-05-30T19:08:52.000Z
+V/CurrentReads( 1843): [799]    2016-05-30T19:08:52.000Z
+V/CurrentReads( 1843): [800]    2016-05-30T19:08:52.000Z
+V/CurrentReads( 1843): [801]    2016-05-30T19:08:52.000Z
+V/CurrentReads( 1843): [802]    2016-05-30T19:08:52.000Z
+V/CurrentReads( 1843): [803]    2016-05-30T19:08:52.000Z
+V/CurrentReads( 1843): [804]    2016-05-30T19:08:52.000Z
+V/CurrentReads( 1843): [805]    2016-05-30T19:08:51.000Z
+V/CurrentReads( 1843): [806]    2016-05-30T19:08:50.000Z
+V/CurrentReads( 1843): [807]    2016-05-30T19:08:50.000Z
+V/CurrentReads( 1843): [808]    2016-05-30T19:08:50.000Z
+V/CurrentReads( 1843): [809]    2016-05-30T19:08:50.000Z
+V/CurrentReads( 1843): [810]    2016-05-30T19:08:49.000Z
+V/CurrentReads( 1843): [811]    2016-05-30T19:08:49.000Z
+V/CurrentReads( 1843): [812]    2016-05-30T19:08:49.000Z
+V/CurrentReads( 1843): [813]    2016-05-30T19:08:48.000Z
+V/CurrentReads( 1843): [814]    2016-05-30T19:08:48.000Z
+V/CurrentReads( 1843): [815]    2016-05-30T19:08:47.000Z
+V/CurrentReads( 1843): [816]    2016-05-30T19:08:47.000Z
+V/CurrentReads( 1843): [817]    2016-05-30T19:08:45.000Z
+V/CurrentReads( 1843): [818]    2016-05-30T19:08:45.000Z
+V/CurrentReads( 1843): [819]    2016-05-30T19:08:45.000Z
+V/CurrentReads( 1843): [820]    2016-05-30T19:08:45.000Z
+V/CurrentReads( 1843): [821]    2016-05-30T19:08:43.000Z
+V/CurrentReads( 1843): [822]    2016-05-30T19:08:43.000Z
+V/CurrentReads( 1843): [823]    2016-05-30T19:08:43.000Z
+V/CurrentReads( 1843): [824]    2016-05-30T19:08:40.000Z
+D/Genymotion(   58): Received Ping
+V/CurrentReads( 1843): [825]    2016-05-30T19:08:39.000Z
+V/CurrentReads( 1843): [826]    2016-05-30T19:08:39.000Z
+V/CurrentReads( 1843): [827]    2016-05-30T19:08:39.000Z
+V/CurrentReads( 1843): [828]    2016-05-30T19:08:37.000Z
+V/CurrentReads( 1843): [829]    2016-05-30T19:08:37.000Z
+V/CurrentReads( 1843): [830]    2016-05-30T19:08:37.000Z
+V/CurrentReads( 1843): [831]    2016-05-30T19:08:37.000Z
+V/CurrentReads( 1843): [832]    2016-05-30T19:08:34.000Z
+V/CurrentReads( 1843): [833]    2016-05-30T19:08:34.000Z
+V/CurrentReads( 1843): [834]    2016-05-30T19:08:33.000Z
+V/CurrentReads( 1843): [835]    2016-05-30T19:08:33.000Z
+V/CurrentReads( 1843): [836]    2016-05-30T19:08:32.000Z
+V/CurrentReads( 1843): [837]    2016-05-30T19:08:32.000Z
+V/CurrentReads( 1843): [838]    2016-05-30T19:08:29.000Z
+V/CurrentReads( 1843): [839]    2016-05-30T19:08:29.000Z
+V/CurrentReads( 1843): [840]    2016-05-30T19:08:29.000Z
+V/CurrentReads( 1843): [841]    2016-05-30T19:08:26.000Z
+V/CurrentReads( 1843): [842]    2016-05-30T19:08:26.000Z
+V/CurrentReads( 1843): [843]    2016-05-30T19:08:24.000Z
+V/CurrentReads( 1843): [844]    2016-05-30T19:08:24.000Z
+V/CurrentReads( 1843): [845]    2016-05-30T19:08:24.000Z
+D/END PARSE SAX( 1843): 1
+D/com.kobobooks.android.readinglife.synching.GetUserAnnotationsRequest( 1843): request succeeded
+V/CurrentReads( 1843): [846]    2016-05-30T19:08:24.000Z
+V/CurrentReads( 1843): [847]    2016-05-30T19:08:20.000Z
+V/CurrentReads( 1843): [848]    2016-05-30T19:08:20.000Z
+V/CurrentReads( 1843): [849]    2016-05-30T19:08:20.000Z
+V/CurrentReads( 1843): [850]    2016-05-30T19:08:14.000Z
+V/CurrentReads( 1843): [851]    2016-05-30T19:08:14.000Z
+V/CurrentReads( 1843): [852]    2016-05-30T19:08:14.000Z
+V/CurrentReads( 1843): [853]    2016-05-30T19:08:11.000Z
+V/CurrentReads( 1843): [854]    2016-05-30T19:08:11.000Z
+V/CurrentReads( 1843): [855]    2016-05-30T19:08:11.000Z
+V/CurrentReads( 1843): [---]
+V/CurrentReads( 1843): [856]    2016-05-25T17:55:01.000Z
+V/CurrentReads( 1843): [857]    2015-12-04T20:59:02.000Z
+V/CurrentReads( 1843): } // End Date Last Read Times
+D/CurrentReads( 1843): Active  current reads: 856
+I/dalvikvm( 1843): Could not find method android.view.View.isAttachedToWindow, referenced from method com.kobobooks.android.ui.AnchoredPopup.canShow
+W/dalvikvm( 1843): VFY: unable to resolve virtual method 19072: Landroid/view/View;.isAttachedToWindow ()Z
+D/dalvikvm( 1843): VFY: replacing opcode 0x6e at 0x000a
+D/FilterFteController( 1843): Frodo => [@Observable :: @InClass -> FilterFteController :: @Method -> anchorViewVisible(anchorView='android.view.View{52b55550 V.ED.... ......I. 0,0-0,0 #7f11049f app:id/anchor_view}')]
+D/FilterFteController( 1843): Frodo => [@Observable#anchorViewVisible -> onSubscribe() :: @SubscribeOn -> main]
+D/com.kobobooks.android.readinglife.synching.GetUserAnnotationsRequest( 1843): done handling request success
+D/com.kobobooks.android.readinglife.synching.GetUserAchievementsRequest( 1843): sending request for user: b43d7e75-1061-4cf8-a5f9-42663655333f
+I/SocialRequest( 1843): HTTP POST
+I/SocialRequest( 1843): https://social.kobobooks.com/AchievementService/user/achievements/get/1.0
+I/SocialRequest( 1843): Content-Type = application/xml
+I/SocialRequest( 1843): Authorization = Bearer 1meZoF0mM4ko/uMQuBRiMO7Sw3xqfM1/u88nG7fu21xI6IHRPwRk8epgogzhxjFZK0GzhEquozBtn9shGcqdEHpbgllBghRQpm30l8H0hnKl+H4k/loiBXvagE9jrYJJn4p1mI3iM49xMP3uyCiyIqdvCkvrMpsor3eKLhG/xN2RmXG3vyd4BvJxIeYv9MINAkqpm/DDid4SzlEV7xrWa/DzVdZkq08y+2Z+1cAIg2LFzSOtNLABTFfBRJxpCrbruuejNc67nsZbdVyirfvHk8kRzbzl+8EEnVEJCfhlCW1kCFQ+9HU/bIdqMxgi7/MLQyPyLzLG94GCG9tC7KIMmpowSD/CpJVqItISpyUfeIBwwzpi31RzdhusH3DXT1v6SSmDuGlaSKety9XDmNmA35IxMttiTykGzlXsrHIsKm7QgQ2Qqd1nST36/y9xISGG8zE1Wj6FAtjYUkWNT7iS1qI9GxarKjq3eSPx0+MYXZeiMM1Mb1LkppVVC+fmd1/V0fFZX+LcVRvnmfUwywACsMhT1ywlaXnPNeu7XIrVVt7ITqPqq
+I/SocialRequest( 1843): <?xml version="1.0" encoding="UTF-8"?><GetUserAchievementsRequest xmlns="http://kobobooks.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SecurityHeader><UserId>b43d7e75-1061-4cf8-a5f9-42663655333f</UserId><Date>2016-07-08T18:29:44.596Z</Date></SecurityHeader><RequestBody></RequestBody></GetUserAchievementsRequest>
+D/SECURE API5 URL( 1843): https://services.kobobooks.com
+W/GA-SERVICE(  595): Thread[Thread-143,5,main]:  Using destination https://ssl.google-analytics.com/collect
+D/dalvikvm( 1843): GC_EXPLICIT freed 5597K, 19% free 33891K/41744K, paused 18ms+20ms, total 104ms
+D/CurrentReads( 1843): New cut-off time: 2016-07-08T14:48:25.000Z
+D/CurrentReads( 1843): -----------------------
+D/CurrentReads( 1843): Possible current reads: 1, limit: 3, decayTime: 2016-05-27T18:29:45.286Z, first decay position: 1 (zero-based)
+V/CurrentReads( 1843): Date Last Read Times: {
+V/CurrentReads( 1843): [000]    2016-07-07T19:25:30.000Z
+V/CurrentReads( 1843): } // End Date Last Read Times
+D/CurrentReads( 1843): Active  current reads: 1
+D/CurrentReads( 1843): Decayed current reads: 0
+D/CurrentReads( 1843): Old cut-off time: 2016-07-08T14:48:25.000Z
+D/CurrentReads( 1843): New cut-off time: 2016-07-07T19:25:30.000Z
+D/CurrentReads( 1843): -----------------------
+D/CurrentReads( 1843): Possible current reads: 1, limit: 3, decayTime: 2016-05-27T18:29:45.810Z, first decay position: 1 (zero-based)
+V/CurrentReads( 1843): Date Last Read Times: {
+V/CurrentReads( 1843): [000]    2016-07-07T19:25:30.000Z
+V/CurrentReads( 1843): } // End Date Last Read Times
+D/CurrentReads( 1843): Active  current reads: 1
+D/CurrentReads( 1843): Decayed current reads: 0
+D/CurrentReads( 1843): Old cut-off time: 2016-07-07T19:25:30.000Z
+D/CurrentReads( 1843): New cut-off time: 2016-07-07T19:25:30.000Z
+D/CurrentReads( 1843): -----------------------
+D/Genymotion(   58): Received Ping
+D/END PARSE SAX( 1843): 856
+D/com.kobobooks.android.readinglife.synching.GetUserAchievementsRequest( 1843): request succeeded
+D/com.kobobooks.android.readinglife.synching.GetUserAchievementsRequest( 1843): done handling request success
+D/com.kobobooks.android.readinglife.synching.EventSubmissionRequest( 1843): sending request for user: b43d7e75-1061-4cf8-a5f9-42663655333f
+I/SocialRequest( 1843): HTTP POST
+I/SocialRequest( 1843): https://social.kobobooks.com/EventService/events/submit/1.0
+I/SocialRequest( 1843): Content-Type = application/xml
+I/SocialRequest( 1843): Authorization = Bearer 1meZoF0mM4ko/uMQuBRiMO7Sw3xqfM1/u88nG7fu21xI6IHRPwRk8epgogzhxjFZK0GzhEquozBtn9shGcqdEHpbgllBghRQpm30l8H0hnKl+H4k/loiBXvagE9jrYJJn4p1mI3iM49xMP3uyCiyIqdvCkvrMpsor3eKLhG/xN2RmXG3vyd4BvJxIeYv9MINAkqpm/DDid4SzlEV7xrWa/DzVdZkq08y+2Z+1cAIg2LFzSOtNLABTFfBRJxpCrbruuejNc67nsZbdVyirfvHk8kRzbzl+8EEnVEJCfhlCW1kCFQ+9HU/bIdqMxgi7/MLQyPyLzLG94GCG9tC7KIMmpowSD/CpJVqItISpyUfeIBwwzpi31RzdhusH3DXT1v6SSmDuGlaSKety9XDmNmA35IxMttiTykGzlXsrHIsKm7QgQ2Qqd1nST36/y9xISGG8zE1Wj6FAtjYUkWNT7iS1qI9GxarKjq3eSPx0+MYXZeiMM1Mb1LkppVVC+fmd1/V0fFZX+LcVRvnmfUwywACsMhT1ywlaXnPNeu7XIrVVt7ITqPqq
+I/SocialRequest( 1843): <?xml version="1.0" encoding="UTF-8"?><EventSubmissionRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://kobobooks.com"><SecurityHeader><UserId>b43d7e75-1061-4cf8-a5f9-42663655333f</UserId><Date>2016-07-08T18:29:46.999Z</Date></SecurityHeader><RequestHeader><UserPlatformInfo><UserKey>06f1a920-731e-4c94-8e18-7e67e90939a5</UserKey><AffiliateId>Kobo</AffiliateId><PlatformId>00000000-0000-0000-0000-000000004000</PlatformId><ApplicationVersion>6.6.16008</ApplicationVersion></UserPlatformInfo></RequestHeader><RequestBody><Events><Event><EventId>4</EventId><Parameters><Parameter 
+I/SocialRequest( 1843): Name="FirstOccurrence">2016-07-08T18:29:41.007Z</Parameter><Parameter Name="LastOccurrence">2016-07-08T18:29:41.007Z</Parameter><Parameter Name="Count">1</Parameter><Parameter Name="ContentId">a9180dd5-adde-4c40-a0a0-bbe0d59eb508</Parameter><Parameter Name="ContentType">99</Parameter></Parameters><ShareToFacebook>false</ShareToFacebook></Event><Event><EventId>4</EventId><Parameters><Parameter Name="FirstOccurrence">2016-07-08T18:29:40.968Z</Parameter><Parameter Name="LastOccurrence">2016-07-08T18:29:40.968Z</Parameter><Parameter Name="Count">1</Parameter><Parameter Name="ContentId">1946d54f-f8c9-4dfc-9dae-125775725b47</Parameter><Parameter Name="ContentType">6</Parameter></Parameters><ShareToFacebook>false</ShareToFacebook></Event><Event><EventId>4</EventId><Parameters><Parameter Name="FirstOccurrence">2016-07-08T18:29:40.924Z</Parameter><Parameter Name="LastOccurrence">2016-07-08T18:29:40.924Z</Parameter><Parameter 
+I/SocialRequest( 1843): Name="Count">1</Parameter><Parameter Name="ContentId">fbe4e204-ba9d-49d3-9801-dcb0830c7dc6</Parameter><Parameter Name="ContentType">6</Parameter></Parameters><ShareToFacebook>false</ShareToFacebook></Event></Events></RequestBody></EventSubmissionRequest>
+D/END PARSE SAX( 1843): 0
+I/ResponseReader( 1843): <?xml version="1.0" encoding="utf-8"?><EventSubmissionResponse xmlns="http://kobobooks.com" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><ErrorList><Error><ErrorCode>106</ErrorCode><ErrorMessage>InvalidContentType</ErrorMessage></Error></ErrorList></EventSubmissionResponse>
+E/ResponseReader( 1843): Errors in the response: 106 
+D/com.kobobooks.android.readinglife.synching.GetCountableStatsRequest( 1843): sending request for user: b43d7e75-1061-4cf8-a5f9-42663655333f
+I/SocialRequest( 1843): HTTP POST
+I/SocialRequest( 1843): https://social.kobobooks.com/StatService/stats/count/1.0
+I/SocialRequest( 1843): Content-Type = application/xml
+I/SocialRequest( 1843): Authorization = Bearer 1meZoF0mM4ko/uMQuBRiMO7Sw3xqfM1/u88nG7fu21xI6IHRPwRk8epgogzhxjFZK0GzhEquozBtn9shGcqdEHpbgllBghRQpm30l8H0hnKl+H4k/loiBXvagE9jrYJJn4p1mI3iM49xMP3uyCiyIqdvCkvrMpsor3eKLhG/xN2RmXG3vyd4BvJxIeYv9MINAkqpm/DDid4SzlEV7xrWa/DzVdZkq08y+2Z+1cAIg2LFzSOtNLABTFfBRJxpCrbruuejNc67nsZbdVyirfvHk8kRzbzl+8EEnVEJCfhlCW1kCFQ+9HU/bIdqMxgi7/MLQyPyLzLG94GCG9tC7KIMmpowSD/CpJVqItISpyUfeIBwwzpi31RzdhusH3DXT1v6SSmDuGlaSKety9XDmNmA35IxMttiTykGzlXsrHIsKm7QgQ2Qqd1nST36/y9xISGG8zE1Wj6FAtjYUkWNT7iS1qI9GxarKjq3eSPx0+MYXZeiMM1Mb1LkppVVC+fmd1/V0fFZX+LcVRvnmfUwywACsMhT1ywlaXnPNeu7XIrVVt7ITqPqq
+I/SocialRequest( 1843): <?xml version="1.0" encoding="UTF-8"?><GetCountableStatsRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://kobobooks.com"><SecurityHeader><UserId>b43d7e75-1061-4cf8-a5f9-42663655333f</UserId><Date>2016-07-08T18:29:47.167Z</Date></SecurityHeader><RequestHeader><PlatformId>00000000-0000-0000-0000-000000004000</PlatformId><ApplicationVersion>6.6.16008</ApplicationVersion></RequestHeader></GetCountableStatsRequest>
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 9534K, 24% free 32359K/42044K, paused 34ms, total 36ms
+I/dalvikvm-heap( 1843): Grow heap (frag case) to 31.988MB for 318300-byte allocation
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 42K, 23% free 32627K/42356K, paused 24ms, total 24ms
+E/dalvikvm( 1843): JIT code cache full
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 1036K, 25% free 31852K/42356K, paused 23ms, total 23ms
+I/dalvikvm-heap( 1843): Grow heap (frag case) to 31.509MB for 334716-byte allocation
+D/dalvikvm( 1843): JIT code cache reset in 0 ms (523128 bytes 3/0)
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 57K, 25% free 32122K/42684K, paused 27ms, total 27ms
+D/END PARSE SAX( 1843): 69
+D/com.kobobooks.android.readinglife.synching.GetCountableStatsRequest( 1843): request succeeded
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 189K, 25% free 32090K/42684K, paused 19ms, total 19ms
+I/dalvikvm-heap( 1843): Grow heap (frag case) to 31.723MB for 316476-byte allocation
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 23K, 25% free 32375K/42996K, paused 21ms, total 21ms
+D/com.kobobooks.android.readinglife.synching.GetCountableStatsRequest( 1843): done handling request success
+D/com.kobobooks.android.readinglife.synching.GetContentStatsRequest( 1843): sending request for user: b43d7e75-1061-4cf8-a5f9-42663655333f
+I/SocialRequest( 1843): HTTP POST
+I/SocialRequest( 1843): https://social.kobobooks.com/StatService/stats/content/1.0
+I/SocialRequest( 1843): Content-Type = application/xml
+I/SocialRequest( 1843): Authorization = Bearer 1meZoF0mM4ko/uMQuBRiMO7Sw3xqfM1/u88nG7fu21xI6IHRPwRk8epgogzhxjFZK0GzhEquozBtn9shGcqdEHpbgllBghRQpm30l8H0hnKl+H4k/loiBXvagE9jrYJJn4p1mI3iM49xMP3uyCiyIqdvCkvrMpsor3eKLhG/xN2RmXG3vyd4BvJxIeYv9MINAkqpm/DDid4SzlEV7xrWa/DzVdZkq08y+2Z+1cAIg2LFzSOtNLABTFfBRJxpCrbruuejNc67nsZbdVyirfvHk8kRzbzl+8EEnVEJCfhlCW1kCFQ+9HU/bIdqMxgi7/MLQyPyLzLG94GCG9tC7KIMmpowSD/CpJVqItISpyUfeIBwwzpi31RzdhusH3DXT1v6SSmDuGlaSKety9XDmNmA35IxMttiTykGzlXsrHIsKm7QgQ2Qqd1nST36/y9xISGG8zE1Wj6FAtjYUkWNT7iS1qI9GxarKjq3eSPx0+MYXZeiMM1Mb1LkppVVC+fmd1/V0fFZX+LcVRvnmfUwywACsMhT1ywlaXnPNeu7XIrVVt7ITqPqq
+I/SocialRequest( 1843): <?xml version="1.0" encoding="UTF-8"?><GetContentStatsRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://kobobooks.com"><SecurityHeader><UserId>b43d7e75-1061-4cf8-a5f9-42663655333f</UserId><Date>2016-07-08T18:29:47.595Z</Date></SecurityHeader></GetContentStatsRequest>
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 213K, 25% free 32405K/42996K, paused 18ms, total 19ms
+I/dalvikvm-heap( 1843): Grow heap (frag case) to 32.029MB for 313740-byte allocation
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 42K, 25% free 32669K/43304K, paused 16ms, total 16ms
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 213K, 25% free 32686K/43304K, paused 22ms, total 28ms
+I/dalvikvm-heap( 1843): Grow heap (frag case) to 32.310MB for 321036-byte allocation
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 79K, 25% free 32920K/43620K, paused 22ms, total 22ms
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 206K, 25% free 32946K/43620K, paused 19ms, total 20ms
+I/dalvikvm-heap( 1843): Grow heap (frag case) to 32.559MB for 316476-byte allocation
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 11K, 25% free 33243K/43932K, paused 18ms, total 18ms
+D/dalvikvm( 1308): GC_CONCURRENT freed 472K, 39% free 9467K/15272K, paused 0ms+0ms, total 3ms
+D/END PARSE SAX( 1843): 1
+D/com.kobobooks.android.readinglife.synching.GetContentStatsRequest( 1843): request succeeded
+D/com.kobobooks.android.readinglife.synching.GetContentStatsRequest( 1843): done handling request success
+D/Finsky  ( 1308): [1] 5.onFinished: Installation state replication succeeded.
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 534K, 25% free 33376K/43932K, paused 20ms, total 22ms
+I/dalvikvm-heap( 1843): Grow heap (frag case) to 33.732MB for 1104996-byte allocation
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 24K, 24% free 34431K/45012K, paused 25ms, total 25ms
+D/unzip   ( 1843): Unzipping:/storage/emulated/0/Android/data/com.kobobooks.android/files/packages/dictionary/en/dictionary.zip to:/storage/emulated/0/Android/data/com.kobobooks.android/files/packages/dictionary/en/
+D/Genymotion(   58): Received Ping
+D/dalvikvm( 1843): GC_FOR_ALLOC freed 3351K, 24% free 34623K/45012K, paused 20ms, total 20ms
+D

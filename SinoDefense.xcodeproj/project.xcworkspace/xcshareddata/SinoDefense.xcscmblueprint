@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F9CE8546B9BBC322E1436E3ED244B8DFE91B7EC8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F9CE8546B9BBC322E1436E3ED244B8DFE91B7EC8" : 0,
+    "2CC69C7EFC439AC727F09E33B49EFBD1D2365CBA" : 0,
+    "F501F6253A6AEB746530F92C6B0EA8E3AD06410B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "50B65FA8-8CE5-4242-955A-2577A26F1F07",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F9CE8546B9BBC322E1436E3ED244B8DFE91B7EC8" : "ChinaDefense-IOS\/",
+    "2CC69C7EFC439AC727F09E33B49EFBD1D2365CBA" : "ChinaDefense-IOS\/Externals\/DTCoreText\/",
+    "F501F6253A6AEB746530F92C6B0EA8E3AD06410B" : "ChinaDefense-IOS\/Externals\/DTCoreText\/Externals\/DTFoundation\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SinoDefense",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SinoDefense.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Cocoanetics\/DTCoreText.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2CC69C7EFC439AC727F09E33B49EFBD1D2365CBA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Cocoanetics\/DTFoundation.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F501F6253A6AEB746530F92C6B0EA8E3AD06410B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/panhuibin\/ChinaDefense-IOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F9CE8546B9BBC322E1436E3ED244B8DFE91B7EC8"
+    }
+  ]
+}
